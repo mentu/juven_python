@@ -1,0 +1,15 @@
+amqp==1.4.9
+anyjson==0.3.3
+Babel==2.3.4
+beautifulsoup4==4.4.1
+billiard==3.3.0.23
+bs4==0.0.1
+celery==3.1.23
+flower==0.9.1
+ibm-db==2.0.7
+kombu==3.0.35
+PyMySQL==0.7.2
+pytz==2016.6.1
+redis==2.10.5
+requests==2.10.0
+tornado==4.2

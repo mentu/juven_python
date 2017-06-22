@@ -1,0 +1,539 @@
+/* Core (Site wide css rules)*/
+/* ---------------------------------------------------------- */
+
+
+/* Elements */
+/* ---------------------------------------------------------- */
+
+body{
+	margin:0px;
+	padding: 0px;
+	font: 62.5%/1.4em Verdana, Arial, Geneva, Helvetica, sans-serif;
+	color: #222;
+	background:url(../../imagesCPR/Background-gradient-169.jpg) repeat-x left top;
+}
+body .noBackGround
+{
+    background: none repeat scroll 0 0 transparent;
+}
+
+td, th, caption{
+	text-align: left;
+}
+img{border:0}
+h1{
+	color: #515151;
+	font:normal 1.8em Georgia, Verdana;
+	margin-bottom:10px;
+	padding:0px 0px 4px 0px;
+	background:url(../../images/layout/bg_h1.gif) bottom left no-repeat;
+}
+h1 a {
+	font:normal 1.1em/1.5em Georgia, Verdana;
+	margin:0px;
+	padding:0px;
+}
+h2{
+	clear:both;
+	font:normal 1.8em Georgia, Verdana;
+	color:#515151;
+	padding: 0px;
+	margin:0px;
+	padding:10px 0px 10px 0px;
+}
+
+h3{
+	font:bold 1.4em Verdana;
+	margin:0px;
+	margin-bottom:10px;
+	color:#515151;
+	padding:10px 0px 7px 0px;
+}
+
+h5{
+	margin:0px;
+	padding:10px 0px 0px 0px;
+	font:bold 1.1em/1.4em Verdana;
+	text-transform:uppercase;
+}
+.SectionHeadline{
+	clear:both;
+	text-transform: uppercase;
+	padding: 0px 0px 0px 10px;
+	margin:0px;
+	background:#0E2D6D;
+	color:#FFF;
+}
+
+.FormSectionTitle{
+	padding: 10px 0px 10px 0px;
+	color: #004990;
+}
+
+h4{
+	color: #515151;
+	font-size:1.1em;
+	padding:0px;
+	margin:0px;
+}
+h1 span, h2 span, h3 span, h4 span {font-family:Verdana !important;}
+h1 a {font-family:Verdana !important;}
+
+a{
+	text-decoration: none;
+	color: #0492C7;
+}
+
+a:hover{
+	text-decoration: underline;
+	color:#0492C7;
+}
+
+form {
+	margin:0px;
+	padding:0px;
+}
+
+.endPage{
+	clear:both;
+}
+
+.FloatWithIn{
+	font-size: 0px; 
+	clear: both; 
+	height: 1px; 
+	overflow: hidden; 
+}
+
+/* Structure setting divs */
+/* ---------------------------------------------------------- */
+
+#KeepAdvertsRight{
+    margin-left:auto;
+    margin-right:auto;
+	padding:0px;
+	width:980px;
+	text-align:left;
+}
+
+#FullPage{
+	float:left;
+	margin:0;
+	padding:0;
+	width:774px;
+}
+
+#Frame{
+	width: 774px;
+	margin:0px;
+	padding:0px;
+	height:141px;
+	background:url(../../images/layout/bg_header.gif) no-repeat;
+}
+
+#ContentFrame{
+	float: left;
+	width: 774px;
+	background:#FFF;
+	
+}
+
+#ContentColumn{
+	margin:0px;
+	padding:0px 15px 0px 21px;
+	width: 770px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 734px;
+}
+
+html>body #ContentColumn 
+{
+	width:734px;
+}     
+
+#ExternalAdverts
+{
+	float:right;
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	padding-left:9px;
+	border:0px;
+}
+
+#UtilityBelt{
+	clear:both;
+	font-size:1.1em;
+	margin:10px 0px 0px 9px;
+	padding:15px 0px 5px 0px;
+	width:600px;
+} 
+
+/* Absolutely positioned Divs first */
+/* ---------------------------------------------------------- */
+
+#FloatLogo{
+	position:absolute;
+	top:10px;
+	left:8px;
+	z-index:10;
+}
+
+#FloatLogo a, #FloatLogo a:hover, #FloatLogo a:link, #FloatLogo a:visited {
+	font:normal 2px/1px Verdana;
+	color:#FF5A00;
+	height:87px;
+	width:225px;
+/*	background: url(../images/DDR-Header_V2.gif) no-repeat;*/
+	display:block;
+	text-decoration:none;
+}
+
+#TopBanner{
+	position:absolute;
+	top:34px;
+	left:303px;
+	z-index:20;
+	padding:0px;
+	margin:0px;
+}
+#WelcomeText{
+	position:absolute;
+	top:155px;
+	left:18px;
+	z-index:20;
+	padding:0px;
+	margin:0px;
+	font:normal 1.0em Verdana;
+	color:#515151;
+	width:250px;
+	height:13px;
+	overflow:hidden;
+	font-weight:bold;
+}
+#HeaderSearch{
+	z-index:20;
+	padding:0px;
+	margin:10px 0px 0px 0px;
+}
+
+/* Standard Header Layout */
+/* ---------------------------------------------------------- */
+
+#HeaderSearch input, #HeaderSearch select  {
+	margin:0px;
+	vertical-align:middle;
+}
+
+#TextBox{
+	width:150px;
+	font:normal 1.1em/1.4em Verdana;
+	vertical-align:middle;
+	margin-right:5px;
+}
+#SelectBox{
+	width:150px;
+	font:normal 1.1em/1.4em Verdana;
+	vertical-align:middle;
+	margin-right:5px;
+}
+
+/* Content Layout */
+/* ---------------------------------------------------------- */
+#Breadcrumb {
+	clear:both;
+	font:bold 1.0em/1.2em Verdana;
+	color: #666677;
+	padding:10px 0px 7px 0px;
+	margin-bottom:0px;
+	text-transform:capitalize;
+}
+
+#Breadcrumb span.current {
+	font-weight:normal;
+}
+
+#Breadcrumb a, #Breadcrumb a:hover {
+	font-weight:normal;
+}
+
+#ContentColumn p {
+	padding:0px;
+	padding-bottom:10px;
+	margin:0px;
+	font-size:1.1em;
+}
+.IconsTop {	
+	float:right;
+	margin:0px;
+	padding:7px 0px 4px 0px;
+}
+
+#mbksan .IconsTop 
+{
+	float:right;
+	margin:0px;
+	padding:0px 0px 4px 0px;
+}
+
+.IconsTop a {
+	font-size:0.55em;
+	margin:0px;
+	margin-left:10px;
+	padding:3px 0px 4px 19px;	
+}
+.IconsHead {	
+	float:right;
+	margin:0px;
+	padding:2px 0px 2px 0px;
+}
+
+.IconsHead a {
+	margin:0px;
+	margin-left:10px;
+	padding:3px 0px 4px 19px;	
+}
+
+.IconsFoot {	
+	text-align:right;
+	margin-top:10px;
+	padding:2px 0px 2px 0px;
+}
+
+.IconsFoot a {
+	margin:0px;
+	margin-left:10px;
+	padding:3px 0px 4px 19px;	
+}
+.IconsHome a {
+	float:right;
+	margin:0px;
+	padding:3px 0px 4px 19px;	
+}
+
+.IconsAlert a 
+{
+	font-size:0.75em;
+	font-weight:normal;
+	float:right;
+	margin:0px;
+	padding:3px 0px 4px 19px;	
+}
+a.Previous{
+	background:url(../../images/icons/b_previous.gif) no-repeat;
+	font:normal 0.73em verdana;
+}
+
+a.PrinterFriendly{
+	background:url(../../images/icons/b_print.gif) no-repeat; background-position:left center;
+	padding-left:21px;
+}
+.consolidated a.BackTop{font-size:100%;font-weight:normal}
+
+a.BackTop{
+	background:url(../../images/icons/b_top.gif) no-repeat; background-position:left center
+}
+
+a.Feedback{
+	background:url(../../images/icons/b_feedback.gif) no-repeat; background-position:left center
+}
+a.Request
+{
+
+	background:url(../../images/icons/b_request.gif) no-repeat;
+}
+a.NextSection{
+	background:url(../../images/icons/b_down.gif) no-repeat;
+}
+
+a.Graphing
+{background:url(../../images/icons/b_popup.gif) no-repeat;
+    }
+a.Bookmark,a.ViewBookmark{
+	background:url(../../images/icons/b_save.gif) no-repeat;
+	margin-left:20px;
+	padding:2px 0px 2px 19px;
+	background-position:left center
+}
+a.ViewBookmark{font-weight:bold}
+a.Help{
+	background:url(../../images/icons/b_help.gif) no-repeat;
+	margin:0px;
+	margin-left:5px;
+	padding:0px 0px 2px 15px;
+}
+
+a.Watchlist{background:url(../../images/icons/b_watch.gif) no-repeat;}
+a.WatchlistDR{background:url(../../images/icons/b_watch_dr.gif) no-repeat;}
+
+.TopBanner{
+    float:right;
+    margin-top:12px;
+}
+
+.uboModuleLink {
+    font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+    font-weight:700;
+    font-size: 12px;
+    text-align: right;
+    float: right;
+    padding-right:20px;
+     list-style: url(../../images/icons/g_arrow_doub_right.gif) none; 
+     margin: 0px; 
+     color: rgb(0, 102, 153);
+}
+
+
+
+
+/* Advertising Layout */
+/* ---------------------------------------------------------- */
+
+#ExternalAdverts .advert{
+	clear:both;line-height:0;font-size:0}
+	
+#ExternalAdverts .advert img{
+	margin-top:8px;
+	margin-bottom:4px;
+}
+
+#ExternalAdverts .advert object{
+	margin-top:8px;
+	margin-bottom:4px;
+}
+
+#ExternalAdverts .advert img.filler{margin:0;display:none}
+
+#LeaderBoard{
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+
+#LeaderBoard img{
+	margin:0px;
+	padding:0px;
+	margin-bottom:10px;
+}
+
+/* Standard Footer Layout */
+/* ---------------------------------------------------------- */
+
+/*
+#UtilityBelt ul {
+	margin:0px 9px 0px 9px;
+	padding:0px;
+	list-style:none;
+	background:url(../images/g_footer_ba_logo.gif) no-repeat right;
+	height:26px;
+}*/
+
+#UtilityBelt ul {margin-left:15px}
+
+#UtilityBelt ul li {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display:inline;
+	color:#515151;
+	border-left:1px solid #515151;
+}
+
+#UtilityBelt ul li.FirstItem {
+	border:none;
+	list-style:none;
+}
+
+#UtilityBelt li a
+{
+	margin:0px;
+	padding:0px;
+	padding-left:5px;
+	padding-right:3px;
+	font-weight:bold;
+}
+
+#BaseMenu{
+    float:left;
+} 
+
+#BaseMenu ul {
+	margin:5px 8px 0px 0px;
+	padding:0px;
+	list-style:none;
+	text-align:left;
+	height:18px;
+}
+
+#BaseMenu ul li {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display:inline;
+	color:#5151515;
+	border-left:1px solid #515151;
+}
+
+#BaseMenu ul li.FirstItem {
+	border:none;
+	list-style:none;
+}
+
+#BaseMenu li a
+{
+	margin:0px;
+	padding:0px;
+	padding-left:5px;
+	padding-right:3px;
+}
+
+
+/* Forms */
+
+input, select, textarea {
+ font-family: Verdana, Arial, Helvetica, sans-serif !important;
+}
+
+/* ---------------------------------------------------------- */
+
+table.orange{	border-top:none !important;
+	border-left:none !important;
+	margin:0px 0px;
+	padding:0px !important;
+	}
+
+ table.orange td{
+ 	background-image:none !important;
+	background-color:#D7D7D7 !important;
+	border-top:1px solid #000;
+	border-right:none !important;
+	border-left:none !important;
+	padding:8px 15px 8px 6px !important;
+	vertical-align: middle !important;
+}
+table.orange table td{background:transparent !important}
+
+.progressLink{font-weight:bold;padding-left:20px;background:url(../../images/layout/g_arrow_doub_right.gif) no-repeat 0 20%;font-size:1.1em}
+.InfoBox{border:1px solid #FFAF45;margin:20px 7px 5px 0;padding:10px}
+
+/* Right Angle Quotes for "Back to PAGE" links */
+.BackLink
+{
+	background:url(../../images/icons/g_arrow_doub_left_small.gif) no-repeat left center !important;
+	padding-left: 10px;
+	font-weight:bold;
+}
+/* IE 5 Modifications - hopefully just fonts*/
+table{font-size:100%}
+
+.creditrating sup {
+    color:Red;
+    vertical-align: top; 
+    position: relative; 
+    top: -0.3em; 
+    font-size: -0.1em
+}
+
+.creditrating .footnote a {
+    color:Gray
+}

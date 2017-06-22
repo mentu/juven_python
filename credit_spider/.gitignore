@@ -1,0 +1,12 @@
+venv
+*.pyc
+.idea
+migrations
+download
+*.db
+*.html
+.swp
+*.*~
+test
+html_demo
+logs/

@@ -1,0 +1,206 @@
+/*layout*/
+#wrapper{width:960px;margin:0 auto;font-size:12px; font-family:Arial, Helvetica, sans-serif; text-align:left;}
+#container{padding:15px 0;overflow:hidden;}
+.sideBar{width:210px;float:left;}
+.mainContent{width:720px;float:right;}
+
+/*common*/
+.mainContent a:hover{color:#000; text-decoration:underline;}
+.clear{clear:both; height:0; overflow:hidden; font-size:0;}
+.breadcrumb{padding-left:13px;font-size:11px;padding-bottom:50px;}
+#Breadcrumb a{color:#FE5902;}
+.graytext{color:#bababa;}
+#topContent{margin-bottom:25px; overflow:hidden;}
+em{font-style:italic;}
+img{border:0}
+#logo{position:relative;left:1px;}
+.fl-right{float:right;}
+.fl-left{float:left;}
+.helpLink{background:url(/imagesCPR/question-icon.jpg) left center no-repeat;padding-left:38px;color:#0d7abc;height:36px;display:block;line-height:36px;float:left;}
+.align-right{text-align:right;}
+#dvLeftColumn .doubleline{height:2px;background:url(/imagesCPR/doubleline.jpg) left top repeat-x;border:0;width:299px;margin:10px 0 10px -11px;}
+#dvLeftColumn .doubleline hr{display:none;}
+.backOverlay{filter:alpha(opacity=50);height: 100%; width: 100%; position: fixed; left: 0px; top: 0px; z-index: 2999; opacity: 0.5;}
+h1 {font-size:22px;color:#0d7abc;font-family:Arial, Helvetica, sans-serif;background: url()}
+.mySectionBody{padding-left:110px;}
+.mySectionBody p{margin-bottom:20px;}
+.mySectionBody label{color:#0d7abc;font-size:10px;margin-bottom:5px;}
+.mySectionBody input,.mySectionBody select{font-size:12px;color:#333;padding:2px 0px 2px 5px;}
+.optionLabel{color:#0d7abc;font-size:12px;margin-bottom:5px;}
+.CPRStatusMessage
+{
+	background:#DBF2FF;
+	border-top:1px solid #FFEDE1;
+	border-bottom:1px solid #AECAF0;
+	padding: 4px 50px 4px 6px;
+	font-size: 1.1em;
+	font-weight: bold;
+	line-height: normal;
+	margin: 20px 0;
+	float: none;
+	display: block;
+}
+table.Bookmarks th{
+	background:url(../../images/layout/bg_blue_table_header.gif) repeat-x center #929292;
+	border-left:1px solid #A1A1A1;
+	border-right:1px solid #A1A1A1;
+	color:#FFF;
+	/*border-top:1px solid #FFF;*/
+	padding:4px 6px 4px 6px
+}
+
+/*header*/
+.topbar{height:27px; line-height:27px;color:#fff;overflow:hidden;}
+.topbar a{text-decoration:none;color:#fff;}
+.topbar a:hover{text-decoration:underline;color:#fff;}
+.orangeblock{background:url(/imagesCPR/orangeblock.jpg) left 2px no-repeat; padding-left:9px;color:#fff;text-decoration:none;}
+.topbar .orangeblock{padding-right:20px;}
+.pageHeaderTopRow{height:103px;}
+.pageHeaderTopRow .advert{text-align:right;padding-top:3px}
+.pageHeaderTopRow .ddLogo{padding-top:14px;padding-left:10px}
+.pageHeaderBottomRow{height:40px}
+
+#top-banner{position:absolute;right:10px;top:12px;}
+.mainHeaderButton{float:left;}
+.mainHeaderButton .dxb{padding:0 12px;margin-top:12px;color:#ff6008;font-size:14px;border-right:1px solid #eaeaea;}
+.mainHeaderButton .dxb a{text-decoration:none;font-size:14px;}
+.mainHeaderButton .dxb a:hover{text-decoration:underline;color:#000;}
+.mainHeaderButton .activeButton a{color: #000;font-weight:bold;}
+.mainHeaderButton .dxbButton-last .dxb{border-right:0;}
+
+/*currentUserControl*/
+.topbar .currentUserControl{position:absolute; right:0;top:0;overflow:hidden;}
+.topbar .currentUserControl div{float:left;}
+#currentUserControl_currentUser{font-weight:bold;padding-right:10px;}
+.currentUserControlLink{color:#fff;padding:0 10px;border-left:1px solid #fff; text-decoration:none;}
+
+/*footer*/
+#footer{border-top:1px solid #a7d7fe; position:relative;color:#5fa7d3;padding:10px 0;}
+
+/*footerNavBar*/
+.footerNavBar{position:absolute; right:0;top:5px;padding:5px 0 5px 5px;}
+.footerNavLink{float:left;line-height:1;}
+.footerNavLink a{text-decoration:none;color:#5fa7d3;padding:0 5px;border-right:1px solid #5fa7d3;}
+.footerNavLink a:hover{text-decoration:underline; color:#000;}
+#footerNavLinks_contactUsLink{border-right:0;}
+
+/*footer-logo*/
+#footer-logo{text-align:right;padding-top:50px;padding-bottom:30px;}
+#reed-logo{margin-right:12px; display:inline-block;} 
+
+/*bankprofileTabControl*/
+.dxtc a{font-size:12px;color:#2f82b4; text-decoration:none;}
+.dxtc a:hover{color:#000;}
+.dxtc{background:url(/imagesCPR/dxtc-mid.jpg) left bottom repeat-x;height:42px;padding-left:7px;padding-right:7px;color:#2f82b4;text-align:center;}
+.dxtcleft{background:url(/imagesCPR/dxtc-left.jpg) left bottom no-repeat #FFFFFF;height:42px;padding:1px}
+.dxtcright{background:url(/imagesCPR/dxtc-right.jpg) left bottom no-repeat #FFFFFF;height:42px;padding:0px 3px 0px 2px;}
+.dxtcActiveTab_Aqua .dxtc{font-size:12px;font-weight:normal;background:#fff url(/imagesCPR/dxtc-active-mid.jpg) left bottom repeat-x;height:42px;color:#0d7abc;text-align:center;font-weight:bold;}
+.dxtcActiveTab_Aqua .dxtcleft{background:url(/imagesCPR/dxtc-active-left.jpg) left bottom no-repeat #FFFFFF;height:42px;}
+.dxtcActiveTab_Aqua .dxtcright{background:url(/imagesCPR/dxtc-active-right.jpg) left bottom no-repeat #FFFFFF;height:42px;padding:0px 3px 0px 2px;}
+.tabContentsDiv{border:1px solid #AECAF0;border-top:0px;padding:5px; float:left}
+.tabControl-outer{overflow:hidden;}
+#tabContainer td{border-bottom:1px solid #AECAF0}
+#tabContainer td table td{border-bottom:0px}
+#tabContainer .dxtcActiveTab_Aqua{border-bottom:0px}
+
+/*my BA*/
+#myBA a{color:#fe5902;text-decoration:underline;}
+#myBA a:hover{color:#000;text-decoration:underline;}
+#myBA{padding:10px 0 0 10px;}
+.blue-grabox454{width:454px;float:left;margin-right:10px;display:inline;margin-bottom:10px}
+.blue-grabox454 .head{background:url(/imagesCPR/bluegradient-box454-head.jpg) left top no-repeat; overflow:hidden; height:16px}
+.blue-grabox454 .content{background:url(/imagesCPR/bluegradient-box454-content.jpg) left bottom no-repeat;height:238px; }
+.blue-grabox454 .content .in{padding:0 15px 10px 10px;width:428px;}
+#myBA .blue-grabox454 .content{height:238px;}
+.blue-grabox454 .title{font-size:18px;color:#0073b9;padding-bottom:10px;border-bottom:1px solid #a4c8e4;}
+.blue-grabox454 .leftCol{width:190px;border-right:1px solid #a4c8e4;float:left;padding:0 10px;} 
+.blue-grabox454 .rightCol{width:190px;float:right;padding:0 10px;} 
+#myBA .blue-grabox454 .settingSection{margin-bottom:2px;}
+#myBA .blue-grabox454 .last{margin-bottom:0;}
+.blue-grabox454 .subtitle{margin:5px 0 5px 0}
+.blue-grabox454 .subtitle a{font-size:14px; font-weight:bold;}
+
+.blue-grabox227{width:227px;float:left;margin-right:10px;display:inline;margin-bottom:10px}
+.blue-grabox227 .head{background:url(/imagesCPR/bluegradient-box227-head.jpg) left top no-repeat; overflow:hidden; height:16px}
+.blue-grabox227 .content{background:url(/imagesCPR/bluegradient-box227-content.jpg) left bottom no-repeat;height:238px}
+.blue-grabox227 .content .in{padding:0 15px 10px 10px;width:210px;}
+#myBA .blue-grabox454 .content{height:238px;}
+.blue-grabox227 .title{font-size:18px;color:#0073b9;padding-bottom:10px;border-bottom:1px solid #a4c8e4;}
+.blue-grabox227 .leftCol{width:190px;border-right:1px solid #a4c8e4;float:left;padding:0 10px;} 
+.blue-grabox227 .rightCol{width:190px;float:right;padding:0 10px;} 
+#myBA .blue-grabox227 .settingSection{margin-bottom:2px;}
+#myBA .blue-grabox227 .last{margin-bottom:0;}
+.blue-grabox227 .subtitle{margin:5px 0 5px 0}
+.blue-grabox227 .subtitle a{font-size:14px; font-weight:bold;}
+
+/*my Profile*/
+.align-center{text-align:center;}
+.tabContentsDiv{width:720px}
+.tabContentsDiv-subnav {float:left;padding:5px 0 0 0 ; margin:0px;}
+.tabContentsDiv-subnav li{float:left;list-style:none;}
+.tabContentsDiv-subnav li div{float:left;padding:0px 10px; border-right:1px solid #BCE1FE;}
+.tabContentsDiv-subnav li.current a{float:left;color:#000;font-weight:bold;}
+.tabContentsDiv-subnav li a{float:left;color:#FE5902}
+.tabContentsDiv-subnav li.current div{float:left;color:#000;}
+.tabContentsDiv-subnav li.last-item div{float:left;border:0;}
+
+.crSubNav {float:left}
+#myProfile p{margin-bottom:10px;}
+.myProfileSectionLeft,.myProfileSectionRight{width:450px;float:left;margin-right:15px;display:inline;}
+.myProfileSectionHeader{background:url(/imagesCPR/bluebar-bg.jpg) repeat-x scroll left top transparent;
+height:34px;
+line-height:34px;
+margin-bottom:10px;
+padding-left:110px;
+font-weight:bold;
+font-size:11px;
+color:#0d7abc;
+}
+.myProfileSectionBody{padding-left:110px;}
+#myProfile .myProfileSectionBody p{margin-bottom:20px;}
+.myProfileSectionBody label{display:block;color:#0d7abc;font-size:12px;margin-bottom:5px;}
+.myProfileSectionBody input,.myProfileSectionBody select{font-size:12px;color:#333;padding:2px 0px 2px 5px;}
+.blueLink{color:#0d7abc;}
+
+/*searchbox*/
+.searchBox_btnGo{border:1px solid #d8d8d8;font-size:12px;font-family:Arial, Helvetica, sans-serif;padding:0 10px;width:auto;}
+.headerSearchBox{font-size:12px}
+.headerSearchBox input, .headerSearchBox select{font-size:12px;border:1px solid #D8D8D8;} 
+.headerSearchBox .dxeEditArea{border: 1px solid #d8d8d8;width:118px;padding:1px;}
+
+/*.headerSearchBox{font-size:12px;border:1px solid #D8D8D8}*/
+
+/* Default Currency */
+.dvSaveButton {clear:both; width:320px; text-align:right}
+.dvDefaultCurrencyLabel {clear:both; float: left; font-weight: bold; font-size: 11px;color:#0D7ABC; padding:5px;}
+.dvCurrencyButtonList {float: left}
+/* My Email*/
+.myEmailSectionBody, .myEmailOptions {padding-left:110px;}
+#myEmail .myEmailSectionBody p{margin-bottom:20px;}
+.myEmailSectionBody label{color:#0d7abc;font-size:10px;margin-bottom:5px;}
+.myEmailSectionBody input,.myEmailSectionBody select{font-size:12px;color:#333;padding:2px 0px 2px 5px;}
+
+.myEmailOptions .FirstCol {vertical-align:top; padding-top:3px}
+.myEmailOptions td {padding-top:0; padding-bottom:0;}
+.myEmailOptions label{color:#0d7abc;font-size:12px;padding:0 3px 0 3px;}
+
+.myProfileHeader{background:url(/imagesCPR/bluebar-bg.jpg) repeat-x scroll left top transparent;
+height:34px;
+line-height:34px;
+margin-bottom:10px;
+padding-left:0px;
+font-weight:bold;
+font-size:11px;
+color:#0d7abc;
+clear:both
+}
+
+
+
+/* My SearchOptions*/
+.mySearchOptionsSectionBody{padding-left:110px;}
+#mySearchOptions .mySearchOptionsSectionBody p{margin-bottom:20px;}
+.mySearchOptionsSectionBody label{color:#0d7abc;font-size:10px;margin-bottom:5px;}
+.mySearchOptionsSectionBody input,.mySearchOptionsSectionBody select{font-size:12px;color:#333;padding:2px 0px 2px 5px;}
+
+.graybutton{border:1px solid #D8D8D8; font-family:Arial, Helvetica, sans-serif;padding:2px 10px;color:#464646;cursor:pointer;outline:none;width:auto;overflow:visible; font-size:11px}

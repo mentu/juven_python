@@ -1,0 +1,327 @@
+/* Core (Site wide css rules)*/
+/* ---------------------------------------------------------- */
+
+
+/* Elements */
+/* ---------------------------------------------------------- */
+html{padding:0;margin:0}
+body{
+	margin:0px;
+	padding: 0px;
+	font:normal 7pt/10pt Verdana, Arial, Geneva, Helvetica, sans-serif; 
+	color: #00144F;
+	background:#fff;
+}
+
+td, th, caption{
+	text-align: left;
+}
+
+h1{
+	color: #515151;
+	font:normal 12pt Georgia, Verdana;
+	margin:0px;
+	margin-bottom:10px;
+	padding:0px 0px 4px 0px;
+	border-bottom:1px dashed #515151;
+	background:none;
+}
+h1 a {
+	font:normal 11pt Verdana;
+	margin:0px;
+	padding:0px;
+}
+h2{
+	clear:both;
+	font:normal 11pt Georgia, Verdana;
+	color:#515151;
+	padding: 0px;
+	margin:0px;
+	padding:10px 0px 5px 0px;
+}
+
+h3{
+	color:#515151;
+	font:normal 11pt Georgia, Verdana;
+	margin:0px;
+	margin-bottom:10px;
+	padding:10px 0px 4px 0px;
+	border-bottom:1px dashed #515151;
+}
+
+h5{
+	margin:0px;
+	padding:10px 0px 0px 0px;
+	font:bold 10pt Georgia, Verdana;
+	text-transform:uppercase;
+}
+.SectionHeadline{
+	clear:both;
+	text-transform: uppercase;
+	padding: 0px 0px 0px 10px;
+	margin:0px;
+	background:#0E2D6D;
+	color:#FFF;
+}
+
+.FormSectionTitle{
+	padding: 10px 0px 10px 0px;
+	color: #004990;
+}
+
+h4{
+	color: #000;
+	font-size:11pt;
+	padding:0px;
+	margin:0px;
+}
+a{
+	text-decoration: none;
+	color: #0492C7;
+}
+
+a:hover{
+	text-decoration: underline;
+	color:#0492C7;
+}
+
+form {
+	margin:0px;
+	padding:0px;
+}
+
+.endPage{
+	clear:both;
+}
+
+.FloatWithIn{
+	font-size: 0px; 
+	clear: both; 
+	height: 1px; 
+	overflow: hidden; 
+}
+
+/* Structure setting divs */
+/* ---------------------------------------------------------- */
+
+#KeepAdvertsRight{
+	margin:0px;
+	padding:0px;
+	/*width:600px;*/
+	width:auto;
+	
+}
+
+#FullPage{
+	float:none;
+	margin:0px;
+	padding:0px;
+	width:auto;
+	/*width:600px;*/
+}
+
+#Frame{
+	display:none
+}
+
+#ContentFrame{
+	float:none;
+	width:auto;
+	background:none;
+	
+}
+
+#ContentColumn{
+	width:auto;
+	padding:0px 0px 20px 0px;
+	margin:10px 0px 0px 0px;
+	background:none;
+	border-bottom:5px solid #515151;
+	height:auto;
+	
+}
+#ContentColumn[id]{height:auto;}
+
+#ExternalAdverts
+{
+	display:none
+}
+
+#UtilityBelt{
+	/*display:none*/
+    width:200px;
+    float:right;
+    margin:0;
+    clear:both
+   
+} 
+
+
+
+
+
+#BaseMenu{
+	/*display:none*/
+	clear:none;
+	width:300px;
+	float:left
+} 
+
+/* Absolutely positioned Divs first */
+/* ---------------------------------------------------------- */
+
+#FloatLogo {position:relative;clear:both;background:url(../../images/logos/logo_bankers_print.gif) no-repeat;width:250px;height:49px;top:0px;left:0px;z-index:0;}
+#FloatLogo a, #FloatLogo a:hover, #FloatLogo a:link, #FloatLogo a:visited {display:none;background:none;}
+
+/* modified by KP */
+#FloatLogo{background:transparent;width:100% !important;position:static;height:auto}
+#FloatLogo a{display:block !important;height:0 !important;width:100% !important;line-height:0;font-size:0}
+#FloatLogo a img{position:relative;float:left;/*margin-top:-49px;*/margin-left:20px;}
+
+
+
+#TopBanner{display:none;}
+#WelcomeText{display:none;}
+#HeaderSearch{display:none;}
+
+.logout{display:none}
+
+/* Standard Header Layout */
+/* ---------------------------------------------------------- */
+
+#HeaderSearch input, #HeaderSearch select  {display:none}
+
+#TextBox{display:none}
+#SelectBox{display:none}
+
+/* Content Layout */
+/* ---------------------------------------------------------- */
+#Breadcrumb {
+	clear:both;
+	font:bold 1.0em/1.2em Verdana;
+	color: #666677;
+	padding:10px 0px 7px 0px;
+	margin-bottom:0px;
+}
+
+#Breadcrumb span.current {
+	font-weight:normal;
+}
+
+#Breadcrumb a, #Breadcrumb a:hover {
+	font-weight:normal;
+}
+
+#ContentColumn p {
+	padding:0px;
+	padding-bottom:10px;
+	margin:0px;
+}
+.IconsTop {display:none}
+.IconsTop a {display:none;}
+
+/* Modified KP*/
+/*are bread crumbs needed on a print? */
+#Breadcrumb{display:none}
+
+
+/* Advertising Layout */
+/* ---------------------------------------------------------- */
+
+#ExternalAdverts .advert {display:none}
+/*
+#LeaderBoard{display:none}
+#LeaderBoard img{display:none;} */
+
+/* Standard Footer Layout */
+/* ---------------------------------------------------------- */
+
+#UtilityBelt ul {
+	display:none
+}
+
+#UtilityBelt ul li {
+	display:none
+}
+
+#BaseMenu ul {
+	display:none
+}
+
+#BaseMenu ul li {
+display:none
+}
+
+
+
+/* Menu */
+/* ---------------------------------------------------------- */
+
+#siteMenu {display:none;}
+#menuItems {display:none;}
+#menuItems ul {display:none;}
+#menuItems li {display:none;}
+
+/*#TopLogo {display:none;} */
+#InternalMenu {display:none;}
+div.DetailsSectionOuter{
+clear:both;
+	margin:0px;
+	padding:3px;
+	border:1px solid #515151;
+	background:#FFF;
+	/*width:590px;*/
+}
+div.DetailsProfileOuter{
+clear:both;
+	margin:0px;
+	padding:3px;
+	border:1px solid #515151;
+	background:#FFF;
+	/*width:590px;*/
+}
+div.DetailsSectionInner{
+	margin:0px;
+	padding:5px;
+	background:#fff;
+}
+ table, td, th{
+	padding:0px;
+	margin:0px;
+	font-size:7pt;
+}
+
+td, th{
+	padding:2px 3px 2px 3px;
+}
+
+
+table.ColorTable .Small td, table.ColorTable .SmallEmph td {
+font-size:7pt;
+}
+
+
+
+.noprint{display:none} 
+
+ 
+.ResultsInner table{width:480px;}
+.BankRanked, tr.BankRanked td.bankname a{font-weight:bold !important;color:#000}
+
+noscript{display:none}
+#ConfirmCurrentEntry{display:none}
+
+
+#brambk .branch{width:auto;float:none;margin-bottom:20px}
+#brambk .branch .ContactDetails{width:auto !important;}
+#brambk .item1{clear:none} 
+
+#filterform .ButtonRow input{display:none}
+#filterform select{border:0 solid;background:transparent;width:auto;}
+.bankmember{float:none;}
+
+
+
+
+
+

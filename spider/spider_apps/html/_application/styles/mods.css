@@ -1,0 +1,2088 @@
+﻿input.QuickSearchText
+{
+	background: #fff !important;
+	border: 1px solid #a5acb2;
+}
+select.QuickSearchSelect
+{
+	border: 1px solid #a5acb2;
+}
+
+body.helppage
+{
+	background: #fff;
+	font-size: 70%;
+	margin: 10px;
+}
+body.helppage table
+{
+	font-size: 100%;
+}
+body.helppage div
+{
+	text-align: center;
+}
+.consolidated
+{
+	color: #ff5a00;
+}
+td.assets, td.capital
+{
+	font-weight: bold;
+	text-align: right;
+}
+td.balance, td.plusminus
+{
+	text-align: right;
+}
+td.bankname a
+{
+	font-weight: normal !important;
+}
+.activemem .FirstCol
+{
+	font-weight: bold;
+	width: 110px;
+}
+table.actmem
+{
+	margin-top: 15px;
+	font-size: 1.1em;
+}
+
+body#FrameSetHead
+{
+	background: #ff5a00;
+}
+body#FrameSetHead div#GreyBar
+{
+	position: absolute;
+	top: 85px;
+	left: 0px;
+	z-index: 1;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 34px;
+	background: url(../../images/layout/bg_greybar.gif) repeat-x #757584;
+}
+
+body#FrameSetHead div#GreyBar #HeaderSearch
+{
+	top: 6px;
+}
+body#FrameSetHead div#GreyBar #WelcomeText
+{
+	top: 13px;
+}
+body#FrameSetHead #siteMenu
+{
+	width: 100%;
+	background: url(../../images/layout/bg_menuitems.gif) repeat-x;
+	left: 0;
+	top: 73px;
+	border-top: 5px solid #757584;
+}
+body#FrameSetHead #menuItems
+{
+	top: 78px;
+}
+body#FrameSetHead #logout
+{
+	top: 78px;
+}
+body#FrameSetHead #FloatLogo
+{
+	top: 18px;
+}
+.ArchTab span
+{
+	font-weight:bold;
+	height:20px;
+	font-size:15px;
+}
+.ArchTab div 
+{
+	height:20px;
+	line-height:19px;
+	vertical-align:middle;
+}
+.ArchTab a, .ArchTab a:hover
+{
+	width:196px;
+	height:20px;
+	margin:0px;
+	padding-right:5px;
+	float:right;
+	display:block;
+	background:url(../../images/layout/b_archive_dd.gif) no-repeat top left;
+	line-height:20px;
+	font-size:10px;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#FFF;
+	text-align:center;
+}
+.AuditLink
+{
+	float:right;
+	padding-left:10px;
+}
+.ArchTR
+{
+	background-color:#F7F7F7;
+	display:none;
+	font-style:italic;
+}
+.ArchAudTR
+{
+	background-color:#F7F7F7;
+	font-style:italic;
+}
+#FloatLogo a img
+{
+	border: 0 solid;
+}
+
+.mainaddress .item0
+{
+	clear: left;
+}
+
+
+
+.mainaddress address, .historical address
+{
+	display: block;
+	font-style: normal;
+	font-size: 1.1em;
+}
+#mbkoff address
+{
+	font-style: normal;
+	font-weight: bold;
+}
+.ContactDetails strong, address.ContactAddress
+{
+	font-size: 1.1em;
+}
+/*
+.mainaddress .telecom
+{
+    display: block;
+    float: left;
+    width: 75px;
+}
+
+ .telecom{width:100px}*/
+
+ h5.DeptName
+{
+	text-transform: uppercase;
+	/*color:#757584;*/
+	clear:left;
+	/*border-bottom:1px dashed;*/
+}
+h5.DeptNameMajor{margin-bottom:0;}
+
+ h6.department{
+	color:#ff5a00;
+	margin:1em 0 0;
+	font-size:1em
+	}
+span.department{color:#ff5a00;display:inline;margin-top:3px}
+span.PersonnelEmails a{font-weight:normal !important}	
+strong.coms{color:#000}
+.personnel .comstable{margin:0 0 0 10px}
+.personnel strong.pernm{font-weight:bold}
+
+.personnel .DetailsSectionInner, .forbras div.office, .dombras .DetailsSectionInner div.office, .repoffices .DetailsSectionInner div.office
+{
+	font-size: 1.1em;
+}
+
+.personnel .Group1{width:45%;margin-right:3%;margin-left:1.5%;float:left;display:inline;}
+.personnel .Group2{width:50%;float:left}
+
+.corpstat p
+{
+	padding-bottom: 0;
+	font-size: 1em;
+}
+
+.corpstat .statementlink
+{
+	padding:0;
+	margin:0;
+	text-align:right;
+	font-size: 1.2em;
+}
+.corpstat .statementlink img
+{
+	margin-right:15px;
+}
+a img
+{
+	border: 0 solid;
+}
+
+/* menu mods */
+
+#menuItems li li a
+{
+	height: auto;
+	line-height: 1em;
+}
+
+#menuItems li ul li
+{
+	height: auto; /* border: 0 solid;     border-bottom: 1px solid #FFAF45;*/
+	width: auto;
+}
+/*
+#menuItems a.Arrow
+{
+    background: url( "../images/bg_menu_arrow.gif" ) 100% 9px no-repeat !important;
+}
+#menuItems .Arrow
+{
+    padding: 4px 15px 5px 7px;
+}
+#menuItems{width:495px;margin-right:20px;left:270px;}
+*/
+#menuItems ul
+{
+	float: left;
+}
+#menuItems ul ul
+{
+	float: none;
+}
+
+.ChangeSelect
+{
+	background: #fff;
+	border: 1px solid #a5acb2;
+	padding: 0;
+	line-height: normal;
+	font-size: 10px;
+	display: inline;
+	float: none;
+	overflow: visible;
+}
+.ChangeSelect select
+{
+	visibility: hidden;
+	margin: 0;
+	height: 0;
+}
+.ChangeSelect select.ListBox
+{
+	height: 85px;
+}
+
+.StatusSection td
+{
+	vertical-align: top;
+}
+
+/*.fins table.ColorTable{width:100%}
+.fins table.ColorTable td{width:95px}
+.fins table.ColorTable td.number{width:107px}*/
+
+
+
+.Emph td
+{
+	text-align: center;
+}
+.fins th.number
+{
+	text-align: center;
+}
+.fins th
+{
+	vertical-align: top;
+}
+.fins .note
+{
+	font-weight: normal;
+}
+.fins td, .fins th
+{
+	padding: 3px 2px !important;
+}
+
+.fins table.ColorTable tr.NoBackground td
+{
+	background: #EBEAEA;
+	border: solid #EBEAEA;
+	width: auto;
+	margin: 0;
+
+}
+.fins .total
+{
+	font-weight: bold;
+}
+
+.fins .DetailsSectionInner .IconsTop
+{
+	font-size: 1.8em;
+}
+
+.fins table.ColorTable tr.NoBackground td h5
+{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.fins .IconsTop
+{
+	display: inline !important;
+	width: auto !important;
+	font-weight: normal;
+	margin: 0px !important;
+	padding-top: 3px !important;
+
+}
+.fins .IconsTop a
+{
+	font-weight: normal;
+}
+
+.fins img
+{
+	margin-top: 0;
+}
+.paychans .ColorTable
+{
+	width: 100% !important;
+}
+
+.ResultsOuter .banktypeicon, .QSResultsOuter .banktypeicon
+{
+	float: none;
+	position: relative;
+	padding: 0;
+	margin: 0 5px 0 -20px;
+}
+.ResultsOuter table
+{
+	width: 560px;
+}
+.ResultsAdvert
+{
+	text-align: center;
+}
+
+.TwoChars input
+{
+	width: 20px;
+}
+.FourChars input
+{
+	width: 40px;
+}
+.IBAN
+{
+	width: 450px;
+}
+
+#login .logintable td
+{
+	background: url(../images/bg_oran_form.gif) repeat-x bottom #FFEED8; /*border-top:1px solid #FFF; 	border-right:1px solid #FFD18D;border-left:1px solid #FFF; */
+	border-bottom: 1px solid #FFD18D;
+	padding: 4px 50px 4px 6px;
+	vertical-align: top;
+}
+.logintable td label
+{
+	font-weight: bold;
+}
+#login .logintable
+{
+	margin: 20px 0;
+	border: 1px solid #FFD18D;
+	border-width: 1px 1px 0;
+}
+
+.username
+{
+	text-transform: capitalize;
+	font-weight:normal;
+}
+
+
+.logout
+{
+	position: absolute;
+	left: 280px;
+	top: 154px;
+	width: 100px;
+	float: left;
+	z-index: 5;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.logout li {
+background: url(../../images/layout/g_arrow_logout.gif) no-repeat;
+padding-left:10px;
+font-weight:bold;
+}
+
+.logout li a {
+color:#515151;
+}
+
+.logout li a:hover {
+color:#515151;
+text-decoration:underline;
+}
+
+
+
+
+
+.moreinfo
+{
+	font-weight: bold;
+	font-size: 1.1em;
+	padding: 3px 0px 2px 19px;
+	margin: 10px 0 0;
+	background: url(../../images/icons/b_info.gif) no-repeat;
+	display: block;
+}
+
+
+.small
+{
+	font-size: 0.8em;
+	display: block;
+}
+
+.forbras .office
+{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	margin: -1px 0 0;
+	width: 100%;
+}
+.forbras .postaloffice
+{
+	border: 0 solid;
+}
+.forbras h4
+{
+	padding-bottom: 10px;
+}
+.forbras h3
+{
+	border: 0 solid;
+}
+.forbras h3 .IconsTop
+{
+	padding-top:5px;
+}
+
+.forbras address, .dombras address, .repoffices address, .agencies address, .offshore address, .otheroffices address, #brambk .ContactAddress
+{
+	font-weight: bold;
+	font-style: normal;
+}
+.forbras table
+{
+	margin-left: 0;
+
+}
+.forbras table td, .dombras table td, .repoffices table td
+{
+	padding-right: 10px;
+	vertical-align: top;
+}
+.forbras .offtown h4, .forbras h3
+{
+	clear: left;
+}
+/*.forbras .offtown .office{width:45%;margin-right:2%;float:left}
+.forbras .office{border:0 solid} 
+
+
+.forbras .offtown{width:45%;margin-right:2%;float:left}
+.forbras .item0{clear:left}*/
+.forbras .towns1
+{
+	width: 45%;
+	margin-right: 2%;
+	float: left;
+}
+.forbras .towns2
+{
+	width: 47%;
+	margin-right: 0%;
+	float: left;
+}
+.forbras .towns0
+{
+	clear: left;
+}
+.forbras .department, .dombras .department, .repoffices .department, .agencies .department, .offshore .department,
+.otheroffices .department{margin-top:2px}
+.repoffices .department, .agencies .department, .offshore .department,
+.otheroffices .department{font-size:1.1em}
+
+
+.telecom
+{
+	width: 70px;
+}
+
+.ContactAddress br
+{
+	display: none;
+}
+.department
+{
+	font-weight: bold;
+}
+
+#ResultsStrap .HiLite a
+{
+	color: #FF5A00 !important;
+}
+
+.odombras table td
+{
+	/*white-space: nowrap; - MH 29/04/08 removed for CR4982*/
+	width: auto;
+}
+.subsidies table
+{
+	width: 100%;
+}
+.subsidies table table td
+{
+	background: none;
+	border: 0 solid;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.subsidies table table td.telecom
+{
+	width: 60px;
+	padding-left: 0;
+}
+.subsidies table table
+{
+	margin: 0;
+	padding: 0;
+}
+.subsidies address
+{
+	font-style: normal;
+	font-weight: bold;
+}
+.subsidies .town
+{
+	width: 150px;
+}
+.subsidies .percent
+{
+	width: 70px;
+}
+/*
+.agencies .offtown{width:30%;float:left;margin-right:2%;margin-top:20px}
+.agencies .newrow{clear:left}*/
+
+.agencies .towns1
+{
+	width: 45%;
+	margin-right: 2%;
+	float: left;
+}
+.agencies .towns2
+{
+	width: 45%;
+	margin-right: 2%;
+	float: left;
+}
+.agencies .towns0
+{
+	clear: left;
+}
+
+.agencies h3
+{
+	clear: left;
+}
+
+/*.repoffices .offtown{width:30%;float:left;margin-right:2%;margin-top:20px}*/
+.repoffices h3
+{
+	clear: left;
+}
+.repoffices .towns1
+{
+	width: 45%;
+	margin-right: 2%;
+	float: left;
+}
+.repoffices .towns2
+{
+	width: 45%;
+	margin-right: 2%;
+	float: left;
+}
+.repoffices .towns0
+{
+	clear: left;
+}
+
+
+.otheroffices h3
+{
+	font-size: 1.4em;
+	font-weight: bold;
+	clear: left;
+}
+.otheroffices .box
+{
+	width: 45%;
+	float: left;
+	margin-right: 2%;
+	margin-top: 20px;
+}
+
+.otheroffices br
+{
+	display: none;
+}
+.otheroffices .item1
+{
+	clear: left;
+}
+.otheroffices h5
+{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+address.postal
+{
+	font-weight: normal;
+	border: 0 solid;
+}
+
+.ContactDetails
+{
+	width: 48% !important;
+	margin-right: 0%;
+	float: left;
+}
+.item1 .ContactDetails, .item0 .ContactDetails
+{
+	float: none;
+}
+div.ContantDetails *
+{
+	width: auto !important;
+}
+.printsection span.BracketedHeader
+{
+	clear: right;
+}
+
+/*div.branch address{width:100% !important;border:1px solid red;float:left}*/
+
+
+
+/*.otheroffices h3{border:0 solid; color:#000;font-size:1.1em;text-transform:uppercase;font-weight:bold}*/
+
+.mainaddress address
+{
+	margin-bottom: 10px;
+}
+
+
+#mbkoff .DetailsSectionInner
+{
+	font-size: 1.1em;
+}
+#mbkoff table.actmem
+{
+	font-size: 1em;
+}
+#mbkoff .SSI .DetailsSectionInner
+{
+	font-size: 1em;
+}
+table.headcoms
+{
+	padding-top: 10px;
+}
+table.headcoms .telecom
+{
+	width: 100px;
+}
+
+.SSI .ColorTable td
+{
+	padding: 3px;
+}
+.SSI .ColorTable th
+{
+	padding: 10px 3px;
+}
+.SSI .ColorTable th img
+{
+	float: right;
+	padding: 3px 3px 0 0;
+}
+.SSI .ColorTable th.currency
+{
+	white-space: nowrap;
+	width: 36px;
+}
+.SSI .ColorTable th.currencyOld
+{
+	width: auto;
+}
+.SSI .ColorTable th a
+{
+	display: block;
+}
+.SSI .ColorTable th.currency img
+{
+	padding-right: 0;
+}
+.SSI .ColorTable .swift
+{
+	white-space: nowrap;
+}
+
+.SSI .ssikeycolumn{width:30px;padding-right:0;text-align:center;}
+.SSI th.other{white-space:nowrap}
+.telecom
+{
+	vertical-align: top;
+}
+
+table.Ranking td.consolidated
+{
+	background: #fff;
+	border: 0 solid;
+}
+
+
+#brambk .branch
+{
+	width: 47%;
+	float: left;
+	margin-bottom: 20px;
+}
+#brambk .branch .ContactDetails
+{
+	width: auto !important;
+}
+#brambk .item1
+{
+	clear: left;
+}
+
+
+#ResultsPaging div.Paging
+{
+	clear:both;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	color: #666677;
+}
+
+#ResultsPaging div.Paging a
+{
+	font-weight: bold;
+}
+
+#ResultsStrap p
+{
+	margin: 0;
+	padding: 0;
+}
+
+.BtmLogoBankers
+{
+	float: right;
+	margin-right: 15px;
+}
+.BtmLogoRBI, .BtmLogoReedElsevier
+{
+	float: right;
+	margin-right: 10px;
+}
+
+.BtmLogoRBI
+{
+    float: right;
+	margin-top: 13px;
+}
+.BtmLogoReedElsevier
+{
+	margin-top: 12px;
+}
+
+#seaiban #QuickSearchForm input
+{
+	vertical-align: text-bottom;
+}
+
+.ButtonRow td
+{
+	text-align: right;
+	padding-right: 20px !important;
+}
+
+.ThirdCol input
+{
+	width: 100px;
+}
+
+
+
+#QueryResults .FirstCol
+{
+	width: 120px;
+	vertical-align: top;
+}
+
+
+.ResultsInner div.border table
+{
+	float: left;
+	margin: 8px 0 0;
+}
+.ResultsInner div.xref
+{
+	font-size: 1.2em;
+	font-weight: normal;
+	font-style: italic;
+	margin: 0px;
+	padding: 10px 0px 7px 0px;
+}
+
+
+.SearchResults div.ResultsInner table th
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px 0px 4px 0px;
+}
+.SearchResults div.ResultsInner table th a
+{
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.SearchResults div.ResultsInner table td.FirstCol
+{
+	font-weight: bold;
+	padding: 1px 10px 0px 0px;
+	white-space: nowrap;
+	width: 90px;
+}
+
+.SearchResults div.ResultsInner table td
+{
+	margin: 0px;
+	padding: 1px 0px 0px 0px;
+	width: 460px;
+}
+.SearchResults div.ResultsInner table td img, .SearchResults .weblink img
+{
+	margin: 0px;
+	padding: 2px 8px 0px 0px;
+	list-style: none;
+	float: left;
+}
+.SearchResults .weblink
+{
+	margin-top: 10px;
+}
+
+/*b.Licensed,*/div.ResultsHead table th b.Licensed a, div.ResultsBranch table th b.Licensed a, div.ResultsOther table th b.Licensed a
+{
+	font-weight: bold;
+
+}
+
+i.Historical, a.historical, div.ResultsHead table th a.Historical, div.ResultsBranch table th i.Historical a, div.ResultsOther table th i.Historical a
+{
+	font-style: italic;
+
+}
+a.historical
+{
+	font-weight: normal !important;
+}
+
+.Historical .BracketedHeader
+{
+	font-style: normal;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+.FootPaging .Paging, td .Paging
+{
+	text-align: right;
+	margin-top: 10px;
+	font-size: 1.1em;
+	color: #666677;
+	clear:both;
+}
+
+.FootPaging a
+{
+	font-weight: bold;
+}
+.PagerRow td
+{
+	background: #fff !important;
+	border: 0 solid !important;
+	padding-bottom: 10px !important;
+	font-size: 1em;
+}
+
+#SeaAdd #QuickSearchForm table
+{
+	margin: 10px 0;
+}
+
+#QueryResults table
+{
+	float: left;
+}
+.SearchResults .colourlogo img
+{
+	width: 100px;
+}
+.SortBySelect
+{
+	margin-top: 5px !important;
+}
+
+#MASearch #QuickSearchForm table
+{
+	width: 700px;
+	margin: 0 0 0px;
+}
+#MASearch #QuickSearchForm .FirstCol
+{
+	width: 120px;
+}
+#MASearch #QuickSearchForm .short
+{
+	width: 20px;
+}
+#MASearch .Help
+{
+	font-weight: normal;
+}
+#MASearch .ResultsOuter table.ColorTable
+{
+	width: 695px;
+}
+
+#MABulletin .ColorTable
+{
+	width: 100%;
+}
+
+#maoptions #QuickSearchForm table
+{
+	width: 100%;
+}
+
+.FooterTop
+{
+	font-size: 1.8em;
+	line-height: 1em;
+}
+
+#mbkinst .navinstitution, #mbkdep .navpersonnel, #mbkhof .navmbkhof, #mbkfnc .navfins, #mbkrats .navratings, #mbkfbr .navforbra, #mbkdbr .navdombra, #mbkgrp .navgroup, #mbkssi .navssi, #mbkown .navownership, #mbksub .navsubsidiaries, #mbkddr .navddr
+{
+	font-weight: bold;
+}
+#mbkinst .navinstitution .ButtonOff, #mbkddr .navddr .ButtonOff, #mbkssi .navssi .ButtonOff
+{
+	color: #fff !important;
+	background-image: url(../../images/layout/b_details_orange.gif) !important;
+}
+
+#mbkinst .navinstitution a, #mbkdep .navpersonnel a, #mbkhof .navmbkhof a, #mbkfnc .navfins a, #mbkrats .navratings a, #mbkfbr .navforbra a, #mbkdbr .navdombra a, #mbkgrp .navgroup a, #mbkssi .navssi a, #mbkown .navownership a, #mbksub .navsubsidiaries a, #mbkddr .navddr a
+{
+	background-image: url(../../images/layout/b_details_orange.gif) !important;
+	color: #fff;
+}
+
+#mbksan .navsanction a
+{
+	background-image: url(../../images/layout/b_details_san_orange.png) !important;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+.subsidies .GroupStructure
+{
+	display: block;
+	text-align: right;
+}
+.StatusMessage, div.ColorTable
+{
+	background:#FFD9C4;
+	border-top:1px solid #FFEDE1;
+	border-bottom:1px solid #D9AF97;
+	padding: 4px 50px 4px 6px;
+	font-size: 1.1em;
+	font-weight: bold;
+	line-height: normal;
+	margin: 20px 0;
+	float: none;
+	display: block;
+}
+.StatusMessage .orange
+{
+	color:#ff5a00;
+}
+
+#QuickSearchForm p.StatusMessage
+{
+	margin: 20px 0;
+	padding: 10px;
+}
+.error
+{
+	color: Red;
+}
+
+div.ColorTable
+{
+	width: auto !important;
+	font-weight: normal;
+	padding-right: 20px;
+}
+div.ColorTableDR
+{
+	width: auto !important;
+	font-weight: normal;
+	padding-right: 20px;
+}
+div.OrangeDR 
+{
+    background:url(../../images/layout/bg_arch_oran_form.gif) repeat-x bottom #C0C0C0 !important; 
+	border-right:1px solid #C0C0C0 !important;
+	border-bottom:1px solid #C0C0C0 !important;
+	padding:4px 15px 4px 6px !important;
+	border-top:1px solid #C0C0C0 !important;
+	border-left:1px solid #C0C0C0;
+	margin:0px;
+}
+div.OrangeDR *
+{
+	vertical-align:middle;
+}
+div.OrangeDR label
+{
+	font-size:1.1em;
+	color:#808080;
+	font-weight:bold
+}
+div.ButtonRow
+{
+	text-align: right;
+	padding-top: 8px;
+	margin: 0;
+	padding-bottom: 0;
+}
+
+
+p.Paging
+{
+	text-align: right;
+}
+
+
+.historical div.DetailsSectionOuter
+{
+	border-width: 0 1px;
+	padding: 0 5px;
+}
+.historical div.DetailsSectionOuter .DetailsSectionInner
+{
+	padding: 0 10px;
+}
+
+.historical div.first
+{
+	border-width: 1px 1px 0;
+	padding-top: 5px;
+}
+.historical div.first .DetailsSectionInner
+{
+	padding-top: 10px;
+}
+.historical div.last
+{
+	border-width: 0 1px 1px;
+	padding-bottom: 5px;
+}
+.historical div.firstlast
+{
+	border-width: 1px;
+	padding: 0px;
+}
+.historical div.last .DetailsSectionInner
+{
+	padding-bottom: 0px;
+}
+.historical div.firstlast .DetailsSectionInner
+{
+	padding-bottom: 10px;
+}
+.historical strong, .historical address
+{
+	font-size: 1em;
+}
+.historical
+{
+	font-size: 1.1em;
+}
+
+#DDBulletin .historical{font-size:1em}
+
+
+#copyright
+{
+	clear: left;
+	font-size: 0.9em;
+	color: #606060;
+    padding-left: 5px;
+}
+
+#TopLogo
+{
+	clear: right;
+}
+
+.corporateinfo
+{
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.stop
+{
+	float: left;
+	margin-right: 10px;
+}
+
+.BulletList, .ListSingle
+{
+	list-style: url(../../images/icons/g_arrow_doub_right.gif) none;
+	margin: 0 0 20px 0;
+	padding: 0 0 0 20px;
+	font-size: 1.1em;
+}
+.BulletList li, .ListSingle li
+{
+	list-style: url(../../images/icons/g_arrow_doub_right.gif) none;
+}
+
+.Introduction
+{
+	font-weight: bold;
+	margin-top: 20px;
+	font-size: 1.2em;
+}
+
+td.ctry
+{
+	font-weight: bold;
+}
+#contactsales td strong
+{
+	font-weight: normal;
+}
+
+.PageImage2
+{
+	margin-left: 4px;
+}
+.PageImage1, .PageImage2, .ResultThumb, .ResultImage
+{
+	border: 1px solid #757584;
+}
+.ResultThumb
+{
+	padding-bottom: 3px;
+}
+#ImageResults td
+{
+	padding-bottom: 10px;
+}
+#ImageResults td td
+{
+	padding: 0;
+}
+
+#view td
+{
+	text-align: center !important;
+}
+td.View
+{
+	text-align: center !important;
+}
+#thumbs td
+{
+	margin: 5px 2px 5px 0;
+	text-align: center;
+	vertical-align: top;
+}
+#thumbs td a:hover
+{
+	text-decoration: none;
+}
+#thumbs td a:hover span
+{
+	text-decoration: underline;
+}
+#thumbs td p span
+{
+	display: block;
+	margin: 2px;
+}
+#thumbs td img
+{
+	border: 1px solid #757584;
+	height: 173px;
+}
+
+.ResultsOuter, .QSResultsOuter .ButtonRow a img
+{
+	float: none;
+	padding: 0;
+	margin: 0;
+}
+
+body#FrameSetHead .lnkBackDD
+{
+	margin-left: 540px;
+	margin-top: 25px;
+}
+.lnkBackDD
+{
+	margin: 10px 0 10px 500px;
+	display: block;
+	width: 220px;
+}
+body#viewPDF #Header.lnkBackDDPDF
+{
+	margin: 10px 0 10px 100px;
+	display: block;
+	width: 220px;
+}
+
+body#ViewPDF,body#viewPDF #KeepAdvertsRight
+{
+	width:100%;
+}
+
+
+body#viewPDF #FullPage
+{
+	width:100%;
+	background:transparent url(../../images/layout/bg_pdfheader.gif) repeat-x scroll 0 0;
+}
+
+body#viewPDF #Frame
+{
+	width: 100%;
+	background:transparent url(../../images/layout/bg_pdflogout.gif) no-repeat scroll 0 0;
+}
+
+.lnkBackDDPDF
+{
+	margin: 10px 0 10px 100px;
+	display: block;
+	width: 220px;
+}
+
+#demograph .DetailsSectionInner .FirstCol
+{
+	width: 150px;
+	font-weight: bold;
+}
+#demograph .DetailsSectionInner td
+{
+	vertical-align: top;
+}
+
+
+.registerform .FirstCol
+{
+	width: 150px;
+}
+.registerform #QuickSearchForm table#Table2 table
+{
+	border: 0;
+	width: auto;
+}
+.registerform #QuickSearchForm table#Table2 table td
+{
+	background: transparent;
+	border: 0 solid;
+	width: auto;
+	padding: 0 5px 0 0;
+	margin: 0;
+}
+.registerform #OptTable
+{
+	width: 100%;
+}
+.registerform #OptTable td
+{
+	width: auto;
+}
+.registerform #QuickSearchForm td
+{
+	vertical-align: middle;
+}
+
+.registerform #QuickSearchForm label
+{
+	font-weight: bold;
+}
+
+.emphasise
+{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#MyPrefs .HomeBoxOuter
+{
+	clear:both;
+	width:100%;
+	display:block;
+	margin:0px 0px 15px 0px;
+	padding:0px 0px 10px 0px;
+	background:url(../../images/layout/b_details_base.gif) no-repeat bottom left #EBEAEA;
+	border:none;
+}
+#MyPrefs .HomeBoxOuterDR
+{
+	clear:both;
+	width:100%;
+	display:block;
+	margin:0px 0px 15px 0px;
+	padding:0px 0px 10px 0px;
+	background:url(../../images/layout/b_details_base.gif) no-repeat bottom left #EBEAEA;
+	border:none;
+}
+
+#MyPrefs .HomeBoxInner
+{
+	margin:0px;
+	padding:10px 10px 10px 10px;
+	background:url(../../images/layout/b_details_top.gif) no-repeat top left;
+	border:none;
+	height: 1%
+}
+
+#MyPrefs .HomeBoxOuter h5
+{
+	clear: left;
+	margin-bottom: 10px;
+}
+
+
+#MyPrefs .border
+{
+	background:url(../../images/layout/bg_details_td.gif) bottom left repeat-x;
+	overflow:hidden;
+	padding-bottom:10px;
+}
+#MyPrefs .borderdr
+{
+	border-bottom: 1px dashed #a5acb2;
+	width: 700px;
+	float: left;
+	position: relative;
+	color:Gray;
+}
+
+.WriteBox, .LongWriteBox, .ShortWriteBox
+{
+	border: 0 solid #000;
+	border-bottom: 1px solid;
+	background: transparent;
+	margin-left: 3px;
+}
+.WriteBox
+{
+	width: 250px;
+}
+.ShortWriteBox
+{
+	width: 100px;
+}
+.LongWriteBox
+{
+	width: 100%;
+}
+.PageBreak
+{
+	page-break-before: always;
+}
+
+.smallfont
+{
+	font-size: 0.9em;
+}
+
+#BankersAddress
+{
+	float: right;
+}
+#BankersAddress address
+{
+	font-style: normal;
+}
+
+.disabled
+{
+	color: #999;
+}
+
+.bankmember
+{
+	float: left;
+	width: 45%;
+	margin-right: 2%;
+}
+
+#ContentColumn
+{
+	height: 487px;
+}
+#ContentColumn[id]
+{
+	height: auto;
+	min-height: 540px;
+}
+
+
+.focus
+{
+	display: block;
+	border: 1px solid #BFCFFF;
+	background: #ECF1FF;
+	color: #000;
+	padding: 0 3px;
+}
+.focus:link
+{
+	color: #3864E9;
+}
+
+.hide
+{
+	display: none;
+}
+.show
+{
+	display: table-row;
+}
+
+#Portfolio .DetailsSectionInner img
+{
+	float: right;
+	margin-left: 20px;
+}
+#Portfolio .DetailsSectionInner
+{
+	height: 120px;
+}
+object
+{
+	margin-bottom: 1em;
+}
+
+#mbkddr .DetailsSectionOuter .DetailsSectionInner
+{
+	margin: 0;
+}
+
+#mbkddr #ContentFrame .StatusMessage
+{
+	margin-top: 5px !important;
+	display: block;
+	padding-bottom: 10px;
+}
+#mbkddr #ContentFrame #DueTopInfo
+{
+	padding: 0;
+	margin: 0;
+	overflow:hidden;
+    clear:right;
+}
+#mbksan #ContentFrame #DueTopInfo
+{
+	padding: 0;
+	margin: 0;
+	overflow:hidden;
+
+}
+#mbkddr #ContentFrame #DueTopInfo ul
+{
+	margin: 0;
+	padding: 0;
+}
+#mbkddr #ContentFrame #DueTopInfo li
+{
+	margin: 0;
+	padding: 0;
+}
+
+td.memtype
+{
+	width: 150px;
+}
+
+.DetailsSectionOuter .DetailsSectionOuter
+{
+	background: transparent;
+	border: 0 solid;
+	padding: 0;
+}
+.DetailsSectionOuter .DetailsSectionOuter .DetailsSectionInner
+{
+	padding: 0;
+}
+
+.SearchLinks
+{
+	color: #fff;
+	padding: 0px 23px 0 18px;
+}
+.SearchLinks:hover
+{
+	/*color: #fff;*/
+}
+#HeaderSubscribe
+{
+	text-align: right;
+	z-index: 20;
+	padding: 0px;
+	margin: 0px;
+}
+#WelcomeBack span.HiLite
+{
+	color: #FF5A00;
+	font-weight: bold;
+}
+
+
+.scale
+{
+	background: url(../../images/layout/bg_oran_form.gif) repeat-x bottom #FFEED8;
+	text-align: center;
+	padding: 10px 0;
+	border-right: 1px solid #ffa500;
+}
+.ScaleContainer
+{
+	border: 1px solid #ccc;
+	width: 300px;
+	margin-top: 20px;
+}
+.UnitTable
+{
+	width: 300px;
+	margin-bottom: 20px;
+}
+.zeroPercent
+{
+	text-align: left;
+	width: 150px;
+}
+.hundredPercent
+{
+	text-align: right;
+	width: 150px;
+}
+
+
+#AdvancedSearch #QuickSearchForm td.ThirdCol
+{
+	white-space: nowrap;
+}
+
+#InternalMenu abbr, #InternalMenu acronym
+{
+	text-decoration: none;
+	border-bottom: 0;
+}
+
+#ContentFrame .fins table.ColorTable
+{
+	width: 100%;
+	margin: 0px 0 0 !important;
+	border: 0 solid !important;
+}
+#ContentFrame .fins .DetailsSectionInner p
+{
+	margin-bottom: 0px !important;
+	padding: 0;
+}
+
+#QuickSearchForm table td.DDAlertCheckBoxList
+{
+	padding: 0;
+	padding-left: 20px;
+}
+#QuickSearchForm td.DDAlertCheckBoxList table
+{
+	width: 100%;
+}
+#QuickSearchForm td.DDAlertCheckBoxList table td
+{
+	padding:2px;
+	border:0;
+	font-size:100%;
+}
+
+#QuickSearchForm .DetailsSectionOuter, #QuickSearchForm .DetailsSectionInner
+{
+	margin:0px;
+	padding:0px;
+	background:none !important;
+}
+
+#QuickSearchForm .DDAlertCountrySelect th
+{
+	font-size: 1.1em;
+}
+
+#QuickSearchForm .DDAlertCountrySelect td
+{
+	margin:0px;
+	padding:2px;
+	border-bottom:1px;
+	border:0px;
+}
+
+#QuickSearchForm .DDAlertCountrySelect
+{
+	font-size: 0.9em;
+}
+
+#QuickSearchForm .DDAlertCountrySelect .ctrySel
+{
+	font-size: 1.1em;
+	width: 290px;
+	height:150px;
+}
+
+#ResultTable .ResultCol
+{
+	font-size: 0.9em;
+	padding-right: 5px;
+}
+#ResultTable .FirstCol
+{
+	width: 55px;
+}
+.ResultCol .HiLite
+{
+	font-weight: bold;
+	color: #ff5a00;
+}
+.ResultCol select
+{
+	width: 580px;
+	font-size: 1.2em;
+}
+.sn
+{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+td.center, th.center
+{
+	text-align: center;
+}
+
+#BankNames span.legendIndicator
+{
+	display: block;
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+}
+#BankNames .Name0
+{
+	background: #ff5a00;
+}
+#BankNames .Name1
+{
+	background: #3864e9;
+}
+#BankNames .Name2
+{
+	background: #00c000;
+}
+#BankNames
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#BankNames li
+{
+	list-style: none;
+	margin: 5px 0;
+	padding: 0;
+	clear: left;
+}
+
+
+#ContentColumn td.andcolumn
+{
+	width: auto;
+	padding: 0;
+	border-right: 0 solid;
+	border-left: 0 solid;
+}
+td.productfilter select
+{
+	width: 175px;
+}
+.countryfilter select
+{
+	width: 150px;
+}
+
+td.productfilter[class] select{
+	width:auto;
+	max-width: 175px;
+	}
+td.countryfilter[class] select{
+	width:auto;
+	max-width: 125px;
+	}
+
+
+#ContentColumn .orange td.countryfilter, #ContentColumn .orange td.productfilter, #ContentColumn .orange td.andcolumn
+{
+	border-left: 0 solid !important;
+	border-right: 0 solid !important;
+	padding-right: 3px !important;
+}
+#ContentColumn td.currencyfilter
+{
+	border-right: 0 solid !important;
+	padding-right: 3px !important;
+}
+#filterform td.ButtonRow
+{
+	border-left: 0 solid !important;
+	padding-right: 0 !important;
+	text-align: right;
+	
+}
+#filterform td.ButtonRow input{margin-right:3px}
+#filterform td
+{
+	vertical-align: middle;
+	line-height: normal;
+}
+#DDAlertMenu{
+	clear:both;
+	margin:0px;
+	width:100%;
+	padding-top: 12px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+#DDAlertMenu div.DDAlertButton{
+	float:left;
+	margin:0px;
+	margin-bottom:0px;
+	margin-right:6px;
+	padding:0px;
+}
+#DDAlertMenu div.DDAlertButtonInner
+{
+	padding:0px 0px 4px 0px;
+	background:url(../../images/layout/bg_details_td.gif) bottom left repeat-x;
+}
+#DDAlertMenu div.DDAlertButton a
+{
+	margin:0px;
+	padding: 0px 0px 0px 18px;
+	line-height:1.9em;
+	height:21px;
+	background: url(/images/layout/b_duedil_anchor.gif) no-repeat;
+	display:block;
+	width:158px;
+}
+#DDAlertMenu div.DDAlertButton a.On 
+{
+	font-weight:bold;
+	color: white;
+	background: url(/images/layout/b_duedil_orange.gif) no-repeat;
+}
+
+.duedocs .ColorTable{width:100%}
+
+.duedocs caption h3{font-weight:bold; font-size:1.4em}
+.duedocs .ColorTable th a img{float:right;padding:3px 3px 0 0}
+
+.dd-box {clear: both; width: 100%; background: url(../../images/layout/bg_white_curve_tr.gif) no-repeat top right #fff;}
+.dd-box-inner {padding: 0px 10px 3px 10px; background: url(../../images/layout/bg_white_curve_tl.gif) no-repeat top left;}
+.dd-base {width: 100%; display: block;background: url(../../images/layout/bg_white_curve_br.gif) no-repeat bottom right #fff; height:7px;}
+.dd-base span {width: 100%; display: block;background: url(../../images/layout/bg_white_curve_bl.gif) no-repeat bottom left; height:7px;}
+.dd-box table {width:694px;}
+.dd-box table td {}
+.dd-box td {font-size: 11px;padding: 6px 0px 6px 3px; border-bottom: 1px dotted #d7d7dc;vertical-align:top;text-align:left;}
+.dd-box td.dd-archive {padding:0px;border: none;}
+.dd-box td.dd-archive td {background-color: #f7f7f7;font-style: italic;}
+.dd-box td.documentlink {padding:6px 5px 6px 5px;}
+.dd-box td.dd-link {background-color:#fff !important;border-bottom: 1px solid #999;font-weight: bold; font-size: 13px;padding:0px 5px 6px 5px;color:#7D7B7E}
+.dd-box td.dd-link img {margin-right:5px;}
+.dd-box td.hsrc-label span, .dd-box td.hdoi-label span, td.hexp-label span, .dd-box td.hdsb-label span, .dd-box td.hlng-label span {width: 75px;}
+.dd-box td.hsrc-label span, .dd-box td.hdsb-label span, .dd-box td.cfrm-label span{padding-left:5px;}
+.dd-box td.hsrc span, .dd-box td.hdsb span {width:290px;margin-right:10px;}
+.dd-box td.hdoi span, .dd-box td.hexp span, .dd-box td.hlng span {width: 130px;}
+.dd-box td span {display:block;}
+.dd-box td.haud a, .dd-box td.haud span {width:114px;display:block;}
+.dd-box td.hh2 span {padding:5px 5px 5px 0px;}
+
+.san-box {clear: both; width: 100%; background: url(../../images/layout/bg_white_curve_tr.gif) no-repeat top right #fff;}
+.san-box-inner {padding: 0px 10px 3px 10px; background: url(../../images/layout/bg_white_curve_tl.gif) no-repeat top left;}
+.san-base {width: 100%; display: block;background: url(../../images/layout/bg_white_curve_br.gif) no-repeat bottom right #fff; height:7px;}
+.san-base span {width: 100%; display: block;background: url(../../images/layout/bg_white_curve_bl.gif) no-repeat bottom left; height:7px;}
+.san-table {width:100%;}
+.san-table td {font-size:11px;padding: 6px 0px 6px 3px; border-bottom: 1px dotted #d7d7dc;vertical-align:top;text-align:left;}
+.san-table td.san-toprow_left {border-bottom:1px solid #999; font-weight:bold; font-size:13px; color:#7D7B7E; padding-top:12px; width:20%;}
+.san-table td.san-toprow_right {border-bottom:1px solid #999; font-weight:bold; font-size:13px; color:#7D7B7E; padding-top:12px;}
+.san-userfeedback {font-size:13px; font-weight:bold; color:#707070; padding:25px 0px 20px 0px;}
+
+.san-paging {float:right; margin-top:6px; color:#667;}
+.san-paging-prev, .san-paging-next, .san-paging-page {font-size:11px; font-weight:bold; padding:0px 6px 0px 6px;}
+.san-paging-prev, .san-paging-page {border-right:1px solid #667;}
+
+td.outer-IBANHide{padding-top:0px;padding-bottom:0px;border:0px}
+.ARCHShow, .IBANShow {display:block;padding:5px 0px 7px 0px;border-bottom:dotted 1px #D7D7DC;width:100%;margin:0px;clear:both;}
+.ARCHHide, .IBANHide {display:none;padding:5px 0px 0px 0px;border:0px;width:100%;margin:0px;clear:both;}
+.IBANHide table td li{list-style-position:inside}
+
+div.Announcements h3 a, div.Industry h3 a{font-size:1em}
+.releaseDate{text-align:right;font-style:italic;white-space:nowrap}
+.destswifts 
+{
+	font-weight:bold;
+	font-size:1.3em;
+}
+.destswifts .destcode{color:#FF5A00;white-space:nowrap}
+
+#InternalSSIMenu .ssilist{
+	float:left;
+	margin:0px;
+	margin-bottom:5px;
+	margin-right:0px;
+	margin-left:8px;
+	padding:0px 0px 7px 0px;
+background:url(../../images/layout/bg_details_td.gif) bottom left repeat-x;
+	display:inline;
+}
+#InternalSSIMenu .ssilist a, #InternalMenu .ssilist a:hover{
+	margin:0px;
+	padding: 0px 0px 0px 24px;
+	line-height:2.2em;
+	text-transform:uppercase;
+	height:24px;
+	background: url(../../images/layout/b_details_ssi_anchor.gif) no-repeat;
+	display:block;
+	/*color:#515151;*/
+	width:174px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width:150px !important;
+}
+#InternalSSIMenu .ssilist a.On, #InternalSSIMenu .ssilist a.On:hover  
+{
+	background: url(../../images/layout/b_details_ssi_Orange.gif) no-repeat;
+	font-weight:bold;
+
+}
+#InternalSSIMenu{
+	margin:10px 0px 15px 0px;
+	padding:0px 0px 10px 0px;
+	overflow:hidden;
+	clear:both;
+}
+
+#InternalSSIMenuInner{
+	margin:0px 0px 0px 0px;
+	padding:10px 0px 0px 0px;
+	width:100%;
+	clear:both;
+}
+.manyssilist
+{
+	font-weight:bold;
+	font-size: 1em;
+}
+
+.orangessi
+{
+	padding:0px 0px 0px 0px !important;
+}
+.IBANIndent
+{
+	margin: 0px 0px 0px 40px !important;
+}
+
+.IBANShow
+{
+	display:block;
+}
+
+.QSResultsOuter .IBANShow
+{
+	width:590px;
+}
+
+.IBANHide
+{
+	display:none;
+}
+a.IBANExpandLink 
+{
+	padding: 0px 0px 0px 18px;
+	font-size:1.1em;
+	background: url(../../images/layout/gs_arrow_second_level.gif) no-repeat left center;
+}
+a.IBANCollapseLink
+{
+	padding: 0px 0px 0px 18px;
+	font-size:1.1em;
+	background: url(../../images/layout/gs_arrow_first_level.gif) no-repeat left center;
+}
+.IBANValidationFail
+{
+	padding: 10px 0px 0px 0px;
+	font-size: 1.2em;
+	color: #f00;
+}
+.IBANValidationFail h1
+{
+	color: #f00;
+	font-weight:bold;
+}
+
+.IBANValidationPass
+{
+	padding: 10px 0px 0px 0px;
+	font-size: 1.2em;
+	color: #0c0;
+}
+.IBANValidationPass h1
+{
+	color: #0c0;
+	font-weight:bold;
+}
+a.EDCNoLink:hover
+{
+
+	text-decoration: none;
+	color:#000000;
+}
+.owningloc
+{
+	color:#FF5a00;
+}
+a.DDFeedback
+{
+	/*background: url(../../images/icons/b_feedback.gif) no-repeat !important;*/
+	padding: 5px 5px 5px 5px;
+	text-decoration:none;
+}
+a.DDFeedback img 
+{
+	padding: 0px 5px 0px 0px
+}
+a.DDFeedback span:hover
+{
+	text-decoration:underline;
+}
+
+/* Disaster Recovery Styles */
+.DRMessage 
+{
+	font-size: 1.3em !important;
+	color:#FF0000 !important;
+	font-weight:bold !important;
+}
+.DDNoAudit
+{
+	color:#c4c4d2;
+}
+
+.DDLozenges img
+{
+	padding: 5px 5px 5px 0px;
+}
+.QuickSearchFormDR table td.DDAlertCheckBoxList
+{
+	padding:0 !important;
+	border-width: 1px 0 0 1px !important;
+	background: transparent !important;
+}
+.QuickSearchFormDR td.DDAlertCheckBoxList table
+{
+	border: 0 solid !important;
+	width: 100% !important;
+}
+.QuickSearchFormDR td.DDAlertCheckBoxList table td
+{
+	border-left: 0 solid !important;
+	border-top: 0 solid !important;
+	font-size: 100% !important;
+}
+
+.h3BorderTop
+{
+	background:transparent url(../../images/layout/bg_details_td.gif) repeat-x scroll left top;
+}
+
+.LEIdetails
+{
+	font-size: 1.1em
+}
+
+

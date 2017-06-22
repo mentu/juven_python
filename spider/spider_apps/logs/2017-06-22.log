@@ -1,0 +1,7 @@
+2017-06-22 13:50:38,250 INFO     Juven      starting spider
+2017-06-22 13:50:38,250 ERROR    Juven      [Errno 2] No such file or directory: './excel/\xe4\xba\xa4\xe9\x80\x9a\xe9\x93\xb6\xe8\xa1\x8c\xe4\xbb\xa3\xe7\x90\x86\xe8\xa1\x8c\xe6\x80\xbb\xe9\x83\xa8\xe6\xb8\x85\xe5\x8d\x95.xlsx'
+2017-06-22 13:51:29,986 INFO     Juven      starting spider
+2017-06-22 13:51:30,068 ERROR    Juven      'module' object has no attribute 'Parser'
+2017-06-22 13:58:53,677 ERROR    Juven      'module' object has no attribute 'Parser'
+2017-06-22 14:17:55,894 ERROR    Juven      [Errno 22] invalid mode ('w+') or filename: './html/_application/styles/core.css?v=4'
+2017-06-22 14:17:55,894 ERROR    Juven      [Errno 22] invalid mode ('w+') or filename: './html/_application/styles/core.css?v=4'

@@ -1,0 +1,156 @@
+2017-06-21 12:39:11,318 ERROR    jiachengyu [Errno 21] Is a directory: './_application/styles/'
+2017-06-21 12:39:11,318 ERROR    jiachengyu [Errno 21] Is a directory: './_application/styles/'
+2017-06-21 12:39:11,318 ERROR    jiachengyu [Errno 21] Is a directory: './_application/styles/'
+2017-06-21 12:39:13,328 ERROR    jiachengyu not viewing HTML
+2017-06-21 12:39:13,328 ERROR    jiachengyu not viewing HTML
+2017-06-21 12:39:13,328 ERROR    jiachengyu not viewing HTML
+2017-06-21 13:42:13,799 ERROR    jiachengyu findall() takes at least 2 arguments (1 given)
+2017-06-21 13:42:13,799 ERROR    jiachengyu findall() takes at least 2 arguments (1 given)
+2017-06-21 13:42:13,799 ERROR    jiachengyu findall() takes at least 2 arguments (1 given)
+2017-06-21 13:42:27,589 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 13:42:27,589 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 13:42:27,589 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 13:47:05,018 ERROR    jiachengyu findall() takes at least 2 arguments (1 given)
+2017-06-21 13:47:05,018 ERROR    jiachengyu findall() takes at least 2 arguments (1 given)
+2017-06-21 13:47:05,018 ERROR    jiachengyu findall() takes at least 2 arguments (1 given)
+2017-06-21 13:47:19,357 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 13:47:19,357 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 13:47:19,357 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 13:48:39,535 ERROR    jiachengyu [Errno 2] No such file or directory: 'https://www.bankersalmanac.com//images/DDR-Header_V3.gif'
+2017-06-21 13:48:39,535 ERROR    jiachengyu [Errno 2] No such file or directory: 'https://www.bankersalmanac.com//images/DDR-Header_V3.gif'
+2017-06-21 13:48:39,535 ERROR    jiachengyu [Errno 2] No such file or directory: 'https://www.bankersalmanac.com//images/DDR-Header_V3.gif'
+2017-06-21 13:48:41,541 ERROR    jiachengyu not viewing HTML
+2017-06-21 13:48:41,541 ERROR    jiachengyu not viewing HTML
+2017-06-21 13:48:41,541 ERROR    jiachengyu not viewing HTML
+2017-06-21 14:10:06,827 ERROR    jiachengyu [Errno 2] No such file or directory: 'https://www.bankersalmanac.com/images/DDR-Header_V3.gif'
+2017-06-21 14:10:06,827 ERROR    jiachengyu [Errno 2] No such file or directory: 'https://www.bankersalmanac.com/images/DDR-Header_V3.gif'
+2017-06-21 14:10:06,827 ERROR    jiachengyu [Errno 2] No such file or directory: 'https://www.bankersalmanac.com/images/DDR-Header_V3.gif'
+2017-06-21 14:10:08,839 ERROR    jiachengyu not viewing HTML
+2017-06-21 14:10:08,839 ERROR    jiachengyu not viewing HTML
+2017-06-21 14:10:08,839 ERROR    jiachengyu not viewing HTML
+2017-06-21 14:25:50,203 ERROR    jiachengyu 'module' object has no attribute 'urlrevrtrieve'
+2017-06-21 14:25:50,203 ERROR    jiachengyu 'module' object has no attribute 'urlrevrtrieve'
+2017-06-21 14:25:50,203 ERROR    jiachengyu 'module' object has no attribute 'urlrevrtrieve'
+2017-06-21 14:26:02,848 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 14:26:02,848 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 14:26:02,848 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 14:38:30,744 ERROR    jiachengyu 'module' object has no attribute 'urlrevrtrieve'
+2017-06-21 14:38:30,744 ERROR    jiachengyu 'module' object has no attribute 'urlrevrtrieve'
+2017-06-21 14:38:30,744 ERROR    jiachengyu 'module' object has no attribute 'urlrevrtrieve'
+2017-06-21 14:38:42,604 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 14:38:42,604 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 14:38:42,604 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 14:39:53,569 ERROR    jiachengyu 'module' object has no attribute 'urlrevrtrieve'
+2017-06-21 14:39:53,569 ERROR    jiachengyu 'module' object has no attribute 'urlrevrtrieve'
+2017-06-21 14:39:53,569 ERROR    jiachengyu 'module' object has no attribute 'urlrevrtrieve'
+2017-06-21 14:40:05,861 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 14:40:05,861 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 14:40:05,861 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 14:42:51,581 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 14:42:51,581 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 14:42:51,581 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 15:05:37,889 ERROR    jiachengyu [Errno 13] Permission denied: '/images/'
+2017-06-21 15:05:37,889 ERROR    jiachengyu [Errno 13] Permission denied: '/images/'
+2017-06-21 15:05:37,889 ERROR    jiachengyu [Errno 13] Permission denied: '/images/'
+2017-06-21 15:05:50,688 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 15:05:50,688 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 15:05:50,688 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 15:07:59,100 ERROR    jiachengyu [Errno 13] Permission denied: '/images/DDR-Header_V3.gif'
+2017-06-21 15:07:59,100 ERROR    jiachengyu [Errno 13] Permission denied: '/images/DDR-Header_V3.gif'
+2017-06-21 15:07:59,100 ERROR    jiachengyu [Errno 13] Permission denied: '/images/DDR-Header_V3.gif'
+2017-06-21 15:08:12,001 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 15:08:12,001 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 15:08:12,001 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 15:11:52,367 ERROR    jiachengyu [Errno 13] Permission denied: '/images/DDR-Header_V3.gif'
+2017-06-21 15:11:52,367 ERROR    jiachengyu [Errno 13] Permission denied: '/images/DDR-Header_V3.gif'
+2017-06-21 15:11:52,367 ERROR    jiachengyu [Errno 13] Permission denied: '/images/DDR-Header_V3.gif'
+2017-06-21 15:12:04,756 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 15:12:04,756 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 15:12:04,756 ERROR    jiachengyu HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.
+The last 30x error message was:
+Moved Permanently
+2017-06-21 15:24:00,639 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:24:00,639 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:24:00,639 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:24:18,046 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:24:18,046 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:24:18,046 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:26:11,409 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:26:11,409 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:26:11,409 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:28:06,652 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:28:06,652 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:28:06,652 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:29:39,686 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:29:39,686 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:29:39,686 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:47:52,551 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:47:52,551 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:47:52,551 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:49:53,885 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:49:53,885 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:49:53,885 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:50:30,154 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:50:30,154 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 15:50:30,154 ERROR    jiachengyu HTTP Error 400: Bad Request
+2017-06-21 17:13:14,426 ERROR    juven      Error 61 connecting to 127.0.0.1:6379. Connection refused.
+2017-06-21 17:13:14,426 ERROR    juven      Error 61 connecting to 127.0.0.1:6379. Connection refused.
+2017-06-21 17:13:14,426 ERROR    juven      Error 61 connecting to 127.0.0.1:6379. Connection refused.
+2017-06-21 17:14:18,377 ERROR    juven      global name 'conn' is not defined
+2017-06-21 17:14:18,377 ERROR    juven      global name 'conn' is not defined
+2017-06-21 17:14:18,377 ERROR    juven      global name 'conn' is not defined
+2017-06-21 17:15:28,312 ERROR    juven      [Errno 13] Permission denied: '/images/'
+2017-06-21 17:15:28,312 ERROR    juven      [Errno 13] Permission denied: '/images/'
+2017-06-21 17:15:28,312 ERROR    juven      [Errno 13] Permission denied: '/images/'

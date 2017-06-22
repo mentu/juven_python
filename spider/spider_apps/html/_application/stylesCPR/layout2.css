@@ -1,0 +1,15 @@
+#wrapper{width:984px;}
+.pageHeaderBottomRow .dxb{font-size:14px;padding-bottom:0;}
+.pageHeaderBottomRow .dxb.first-item{padding-left:0;}
+.pageHeaderBottomRow .dxb .dropdownIndicator{position:relative;top:-2px;#top:-3px;left:3px;}
+.pageHeaderBottomRow .activeButton .dxb{font-weight:bold;}
+.headerSearchBox{right:0;}
+.mainHeaderButton .dxb{}
+
+/*#topnav2{float:right;padding-top:auto;padding-bottom:auto;}*/
+#topnav2{padding-top:12px;margin-top:0}
+#topnav2 li{float:left;text-decoration:none;list-style:none}
+#topnav2 li a{color:#0073b9;text-decoration:none;padding:0 10px;border-right:1px solid #eaeaea;}
+#topnav2 li a:hover{color:#000; text-decoration:underline;}
+#topnav2 li.last-item a{border:none;}
+#logo{left:0;}

@@ -1,0 +1,181 @@
+#siteMenu
+{
+    z-index: 5;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font: bold 10px verdana;
+    padding-top: 0px;
+}
+
+HTML > BODY #siteMenu
+{
+    height: 23px;
+}
+
+#menuItems
+{
+    z-index: 50;
+    margin: 0px;
+    padding-top: 12px;
+}
+
+#menuItems UL
+{
+    padding-bottom: 0px;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    width: 100%;
+    padding-right: 0px;
+    list-style-image: none;
+    padding-top: 0px;
+}
+
+#menuItems LI
+{
+    padding-bottom: 0px;
+    margin: 0px 10px 0px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: inline;
+    float: left;
+    height: 22px;
+    padding-top: 0px;
+}
+
+#menuItems A.ArrowTrue
+{
+    background-image:url(/imagesCPR/red-down-arrow.gif);
+    background-repeat:no-repeat;
+    background-position:right center;
+    padding:1px 10px 0 0;
+}
+
+#menuItems A.ArrowFalse
+{
+    padding-top:1px
+}
+
+#menuItems A
+{
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    float: left;
+    color: #fe5902;
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 4px;
+}
+
+#menuItems .Arrow
+{
+}
+
+#menuItems > UL A
+{
+    width: auto;
+}
+
+#menuItems A
+{
+    float: none;
+}
+
+#menuItems .over A
+{
+    background-position: 0% -22px;
+}
+
+#menuItems LI:hover A
+{
+    background-position: 0% -22px;
+}
+
+#menuItems A:hover
+{
+    background-position: 0% -22px;
+}
+
+#menuItems .over UL LI
+{
+    background-image: none;
+}
+
+#menuItems LI:hover UL LI:hover
+{
+    background-image: none;
+}
+
+#menuItems A SPAN.DownArrow
+{
+    font: bold 8px Arial Black;
+}
+
+#menuItems LI UL
+{
+    z-index: 10;
+    position: absolute;
+    left: -999em;
+    margin: 7px 0px 0px 0px;
+    border: 1px solid #eee;
+    width: auto;
+}
+
+HTML > BODY #menuItems LI UL
+{
+    left: -2000px;
+}
+
+#menuItems LI UL LI
+{
+    background-image: none;
+    border-bottom: 0px;
+    border-left: 0px;
+    float: none;
+    height: auto;
+    border-top: 0px;
+    border-right: 0px;
+    margin: 0px;
+}
+
+#menuItems LI UL LI A
+{
+    border: 0;
+    padding: 6px 8px;
+    margin: 0px;
+    width: 140px;
+    display: block;
+    font: 10px Verdana, sans serif;
+    background: #f7f7f7;
+    color: #fe5902;
+}
+
+#menuItems LI UL LI A:hover
+{
+    background: #f7f7f7;
+    color: #000;
+}
+
+#menuItems LI:hover UL
+{
+    left: auto;
+}
+
+#menuItems LI.over UL
+{
+    left: auto;
+}
+
+#menuItems IFRAME
+{
+    z-index: -1;
+    position: absolute;
+    filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0);
+    top: 0px;
+    left: 0px;
+}
+

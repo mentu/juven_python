@@ -1,0 +1,755 @@
+#TopInfo{
+	margin:0px;
+	padding:0px;
+}
+
+#TopLogo{
+	float:right;
+	margin:0px;
+	padding:0px 0px 5px 15px;
+	background:#fff;
+}
+
+#TopInfo ul {
+	margin:0px;
+	padding:0px;
+}
+
+#TopInfo ul li {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	float:left;
+	width:600px;
+	font-size:1.1em;
+}
+#TopInfo ul li img{
+	margin:0px;
+	padding:0px 8px 8px 0px;
+	list-style:none;
+	float:left;
+}
+#TopInfo ul li.One {width:170px;padding:0px;margin:0px 0px 8px 0px;font-weight:bold;}
+#TopInfo ul li.Two {width:80px;padding:0px;margin:0px;}
+
+#InternalMenu{
+	margin:5px 0px 0px 0px;
+	padding:0px 0px 10px 0px;
+	background: url(../../images/layout/bg_internal_menu_base.gif) no-repeat bottom left  #FFD9C4;
+	overflow:hidden;
+	clear:both;
+}
+
+#InternalMenuInner{
+	margin:0px 0px 0px 0px;
+	padding:10px 0px 0px 0px;
+	background: url(../../images/layout/bg_internal_menu_top.gif) no-repeat top left;
+	width:100%;
+	clear:both;
+}
+
+#InternalMenu div.InternalButton, #InternalMenu div.InternalSanButton{
+	float:left;
+	margin:0px;
+	margin-bottom:5px;
+	margin-right:0px;
+	margin-left:6px;
+	padding:0px 0px 7px 0px;
+	background: url(../../images/layout/bg_internal_menu.gif) repeat-x bottom left;
+	display:inline;
+
+}
+#InternalMenu div.InternalButton a, #InternalMenu div.InternalButton a:hover{
+	margin:0px;
+	padding: 0px 0px 0px 28px;
+	line-height:2.2em;
+	text-transform:uppercase;
+	height:24px;
+	background: url(../../images/layout/b_details_anchor.gif) no-repeat;
+	display:block;
+	color:#515151;
+	width:237px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width:209px;
+}
+
+#InternalMenu div.InternalSanButton a, #InternalMenu div.InternalSanButton a:hover{
+	margin:0px;
+	padding: 0px 0px 0px 28px;
+	line-height:2.2em;
+	text-transform:uppercase;
+	height:24px;
+	background: url(../../images/layout/b_details_san_anchor.png) no-repeat;
+	display:block;
+	color:#515151;
+	width:237px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width:209px;
+}
+
+html>body #InternalMenu div.InternalButton a, html>body #InternalMenu div.InternalButton a:hover  {
+	width: 209px;
+}     
+
+#InternalMenu div.InternalButton span.ButtonOff{
+	margin:0px;
+	padding: 0px 0px 0px 28px;
+	line-height:2.2em;
+	color:#C07E5A;
+	text-transform:uppercase;
+	height:24px;
+	background: url(../../images/layout/b_details_anchor_off.gif) no-repeat;
+	display:block;
+	width:237px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width:209px;
+}
+html>body #InternalMenu div.InternalButton span.ButtonOff  {
+	width: 209px;
+}
+
+span.BracketedHeader{
+	font:normal 0.7em verdana;
+	color:#555;
+}
+
+div.DetailsSectionOuter{
+	clear:both;
+	width:100%;
+	display:block;
+	margin:0px;
+	padding:0px 0px 10px 0px;
+	background:url(../../images/layout/b_details_base.gif) no-repeat bottom left #EBEAEA;
+}
+div.DetailsSectionOuterDR
+{
+	clear:both;
+	margin:0px;
+	display:block;
+	padding:0px 0px 10px 0px;
+	background:url(../../images/layout/b_details_base.gif) no-repeat bottom left #EBEAEA;
+	color:#C0C0C0;
+}
+div.DetailsProfileOuter{
+	clear:both;
+	width:100%;
+	display:block;
+	margin:0px;
+	padding:0px 0px 10px 0px;
+	background:url(../../images/layout/b_details_base.gif) no-repeat bottom left #EBEAEA;
+}
+div.DetailsSectionInner, div.DetailsProfileInner{
+	margin:0px;
+	padding:10px 10px 10px 10px;
+	background:url(../../images/layout/b_details_top.gif) no-repeat top left;
+	height: 1%
+}
+
+div.DetailsSectionInner h3, div.DetailsProfileInner h3{
+	background:url(../../images/layout/bg_details_td.gif) bottom left repeat-x;
+}
+
+
+html>body div.DetailsSectionInner, html>body div.DetailsProfileInner{
+height: auto
+} 
+
+div.DetailsSectionInner p{
+	margin:0px;
+	padding:0px;
+	padding-top:10px;
+	margin-top:10px;
+	font-size:1.1em;
+}
+
+div.DetailsSectionInner p a{
+	font-weight:bold;
+}
+
+div.ContactDetails{
+	float:left;
+	margin:0px;
+	padding:9px 10px 0px 0px;
+	width:48%;
+}
+div.ContactDetails table{
+	padding:0px;
+	margin:0px;
+	font-size:1.1em;
+}
+div.ContactDetails table td{
+	vertical-align: top;
+	padding:0px 5px 0px 0px;
+}
+div.ContactDetails table td.ContactAddress{
+	padding-bottom:15px;
+}
+table.ColorTableDR{
+	border-top:1px solid #EBEAEA;
+	margin:0px;
+	padding:0px;
+	font-size:1.1em;
+}
+table.ColorTableDR th{
+	background:url(../../images/layout/bg_blue_table_header.gif) repeat-x center #929292;
+	border-left:1px solid #A1A1A1;
+	border-right:1px solid #A1A1A1;
+	padding:3px 6px 6px 6px;
+	color:#FFF;
+}
+table.ColorTableDR td {
+	background:url(../../images/layout/bg_blue_table.gif) repeat-x bottom #FFF;
+	border-top:1px solid #EBEAEA;
+	border-right:1px solid #EBEAEA;
+	border-bottom:1px solid #EBEAEA;
+	border-left:1px solid #EBEAEA;
+	padding:4px 6px 4px 6px;
+	vertical-align: top;
+	color:#C0C0C0;
+}
+table.ColorTableDR td a{
+	font-weight:bold;
+}
+table.ColorTableDR td a.NonBold{
+	font-weight:normal;
+}
+table.ColorTable{
+	border-top:1px solid #EBEAEA;
+	margin:0px;
+	padding:0px;
+	font-size:1.1em;
+}
+table.ColorTable th{
+	background:url(../../images/layout/bg_blue_table_header.gif) repeat-x bottom #929292;
+	border-left:1px solid #A1A1A1;
+	border-right:1px solid #A1A1A1;
+	padding:3px 6px 6px 6px;
+	color:#FFF;
+}
+table.ColorTable th a{
+ color:#FFF;
+}
+table.ColorTable td {
+	background:url(../../images/layout/bg_blue_table.gif) repeat-x bottom #FFF;
+	border-top:1px solid #EBEAEA;
+	border-right:1px solid #EBEAEA;
+	border-bottom:1px solid #EBEAEA;
+	border-left:1px solid #EBEAEA;
+	padding:4px 6px 4px 6px;
+	vertical-align: top;
+}
+table.ColorTable td a{
+	font-weight:bold;
+}
+table.ColorTable td a.NonBold{
+	font-weight:normal;
+}
+
+table.ColorTable .Small td {
+	font-size:0.9em;
+	text-align:right;
+}
+
+table.ColorTable .Small td.SmallLeft, table.ColorTable .SmallEmph td.SmallLeft {
+	text-align:left;
+}
+
+table.ColorTable .Emph td, table.ColorTable td.Emph, table.Status td a{
+	font-weight:bold;
+}
+
+table.ColorTable .SmallEmph td {
+	font-size:0.9em;
+	font-weight:bold;
+	text-align:right;
+}
+
+table.Status{
+	margin:0px;
+	padding:0px;
+	font-size:1.1em;
+}
+table.Status td{
+	margin:0px;
+	padding:10px 10px 10px 0px;
+	vertical-align: top;
+	background:url(../../images/layout/bg_details_td.gif) bottom left repeat-x;
+}
+table.Status td.FirstCol{
+	font-weight:bold;
+	margin:0px;
+	padding:10px 5px 0px 0px;
+	vertical-align: top;
+	white-space:nowrap;
+}
+.Paging{
+	letter-spacing:1px;
+}
+table.DomesticBranches{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	font-size:1.1em;
+}
+table.DomesticBranches td{
+	margin:0px;
+	padding:5px 5px 5px 0px;
+	vertical-align: top;
+	line-height:20px;
+	width:25%;
+}
+.GroupStructure {	
+	float:right;
+	margin:0px;
+	padding:8px 0px 2px 0px;
+}
+
+.GroupStructure a {
+	font:bold 11px/14px Verdana;
+	text-transform:capitalize;
+}
+
+
+/* GroupStructure */
+/* ---------------------------------------------------------- */
+
+.GS {
+background:url(../../images/layout/gs_arrow_first_level.gif) no-repeat;
+padding:0px 0px 0px 0px;
+}
+
+
+.GS h4 {
+text-transform:uppercase;
+background:url(../../images/layout/bg_details_td.gif) bottom left repeat-x;
+padding:0px 0px 8px 20px;
+margin:5px 0px 0px 0px;
+}
+
+
+.GS ul {
+margin-top:3px;
+margin-bottom:0px;
+margin-left:30px;
+padding:0;
+font-size:1.1em;
+}
+
+.GS ul ul {
+font-size:1.0em;
+}
+
+.GS ul li {
+margin-top:5px;
+margin-bottom:0px;
+list-style:url(../../images/layout/gs_arrow_second_level.gif) none ;
+padding:0px 0px 1px 0px;
+margin-left:0;
+
+/*background:url(../images/gs_arrow_second_level.gif) no-repeat;*/
+}
+.GS ul li ul li a 
+{
+	background-color: #EBEAEA;
+	color: #0492C7;
+}
+.GS ul li.focus ul li a 
+{
+	background-color: #EBEAEA;
+	color: #0492C7;
+}
+.GS ul ul li {
+/*background:url(../images/gs_arrow_third_level.gif) no-repeat;*/
+font-size:1.0em;
+list-style:url(../../images/layout/gs_arrow_third_level.gif) none
+}
+.GS li.focus{display:list-item;}
+.GS .focus{font-weight:bold !important;background:none;border:0  solid}
+.GS li.focus a{font-weight:bold;padding:3px 0px;color:#FF5A00;background-color:#FFF;}
+.GS a {font-weight:bold;}
+
+
+/* World Ranking */
+/* ---------------------------------------------------------- */
+
+table.ColorTable th.CurRank {width:8.7%;text-align:center;}
+table.ColorTable th.PreRank {width:9.7%;text-align:center;}
+table.ColorTable th.BanRank {text-align:center;width:38.0%;}
+table.ColorTable th.AssRank {width:13.0%;text-align:center;}
+table.ColorTable th.LocRank {width:10.3%;text-align:center;}
+table.ColorTable th.CapRank {width:10.0%;text-align:center;}
+table.ColorTable th.BalRank {width:9.0%;text-align:center;}
+
+div.DetailsSectionInner p.OrgBold {color:#FF5A00;font-weight:bold;font-size:0.9em;}
+
+.Ranking td {font-size:0.9em;}
+.Ranking th {font-size:0.9em;}
+
+.Ranking tr.BankRanked td {background:url(../../images/layout/bg_oran_form.gif) repeat-x bottom #FFEED8;}
+
+.Ranking td.RankRight {text-align:right;}
+.Ranking td.RankRightBold {text-align:right;font-weight:bold}
+.Ranking td.RankRightBold span {color:#FF5A00;}
+
+
+/* Due Diligence */
+/* ---------------------------------------------------------- */
+
+
+#DueTopInfo ul {
+	margin:0px;
+	padding:0px;
+}
+
+#DueTopInfo ul li {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	float:left;
+}
+#DueTopInfo ul li.One {font-weight:bold;width:180px;padding:0px 0px 10px 0px;margin:0px;font-size:1.1em;}
+#DueTopInfo ul li.Two {width:80px;padding:0px;margin:0px;font-size:1.1em;}
+#DueTopInfo ul li.Three {text-align:right;width:470px;padding:0px;margin:0px;}
+
+#DueTopInfo .DDLozenges {
+    padding-top:5px;
+}
+
+#DueTopInfo .DDLozenges img {
+	margin:0px 5px 5px 0px;
+	padding:0px;
+}
+
+#DueTopInfo .DDLozenges a img {
+	margin:0px 10px 5px 0px;
+	padding:0px;
+}
+
+#DueTopInfo .dockey {
+    float:right;
+    padding-bottom:5px;
+}
+
+#mbksan #DueTopInfo .DDLozenges a img 
+{
+	margin:0px;
+	padding:0px 6px 2px 0px;
+}
+#mbksan #DueTopInfo .DDLozenges ul li a img 
+{
+	margin:0px;
+	padding:0px 10px 5px 0px;
+}
+
+table.DueDiligence{
+	margin:0px;
+	padding:0px;
+	font-size:1.1em;
+	width:100%;
+}
+table.DueDiligence td{
+	margin:0px;
+	padding:10px 10px 10px 0px;
+	vertical-align: top;
+	background:url(../../images/layout/bg_details_td.gif) bottom left repeat-x;
+}
+table.DueDiligence td.FirstCol{
+	font-weight:bold;
+	margin:0px;
+	padding:10px 5px 10px 0px;
+	vertical-align: top;
+	width:170px;
+}
+table.DueDiligence td table.ColorTable{
+	margin:0px;
+	border-top:none;
+	font-size:1.0em;
+}
+table.DueDiligence td table.ColorTable td{
+	padding:4px 6px 4px 6px;
+}
+table.DueDiligence td a{
+	font-weight:bold;
+}
+#ContentColumn table.DueDiligence tr td p{
+	margin:0px;
+	padding:0px;
+	padding-bottom:10px;
+	font-size:1.0em;
+}
+div.DetailsSectionInner ul.ArrowBullet {
+padding:0px;
+margin:0px;
+font-size:1.1em;
+}
+div.DetailsSectionInner ul.ArrowBullet li {
+margin:0px;
+list-style-type:none;
+padding:0px 0px 3px 12px;
+background:url(../../images/layout/g_dd_arrow.gif) no-repeat;
+}
+div.DetailsSectionInner ul.ArrowBullet li a{
+font-weight:bold;
+}
+/* Bookmark Form */
+/* ---------------------------------------------------------- */
+
+#BookmarkForm div.ColorTable table{
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+#BookmarkForm table.ColorTable{
+	margin:0px;
+	padding:0px;
+	width:100%
+}
+
+#BookmarkForm table.ColorTableDR{
+	margin:0px;
+	padding:0px;
+	width:100%
+}
+#BookmarkForm div.ColorTableDR table{
+	margin:0px;
+	padding:0px;
+	width:100%
+}
+ #BookmarkForm div.ColorTable table td{
+	background:#FFD9C4;
+	border-top:1px solid #FFEDE1;
+	border-bottom:1px solid #D9AF97;
+	padding:8px 50px 8px 6px;
+	vertical-align: top;
+}
+#BookmarkForm table.ColorTable td{
+	background:#FFD9C4;
+	border-top:1px solid #FFEDE1;
+	border-bottom:1px solid #D9AF97;
+	padding:4px 50px 4px 6px;
+	vertical-align: top;
+}
+#BookmarkForm table.ColorTableDR td{
+	background:#FFD9C4;
+	border-top:1px solid #FFEDE1;
+	border-bottom:1px solid #D9AF97;
+	padding:4px 50px 4px 6px;
+	vertical-align: top;
+}
+#BookmarkForm div.ColorTableDR table td{
+	background:#FFD9C4;
+	border-top:1px solid #FFEDE1;
+	border-bottom:1px solid #D9AF97;
+	padding:4px 50px 4px 6px;
+	vertical-align: top;
+}
+
+#BookmarkForm div.ColorTable table td.FirstCol {
+	font-weight:bold;
+	font-size:1.1em;
+	padding-right:5px;
+	width:140px;
+}
+#BookmarkForm table.ColorTable td.FirstCol {
+	font-weight:bold;
+	/*font-size:1.1em;*/
+	padding-right:5px;
+	width:140px;
+}
+
+#BookmarkForm table.ColorTableDR td.FirstCol {
+	font-weight:bold;
+	/*font-size:1.1em;*/
+	padding-right:5px;
+	width:140px;
+}
+#BookmarkForm div.ColorTableDR table td.FirstCol {
+	font-weight:bold;
+	font-size:1.1em;
+	padding-right:5px;
+	width:140px;
+}
+#BookmarkForm table.ColorTable td input.BookMarkText, textarea.BookMarkTextArea {
+font:bold 1em verdana;
+width:336px;
+}
+#BookmarkForm table.ColorTableDR td input.BookMarkText, textarea.BookMarkTextArea {
+font:bold 1.1em verdana;
+width:336px;
+}
+
+#BookmarkForm div.ColorTable td.buttons{border-right:0 solid}
+#BookmarkForm div.ColorTable td.ManageBookmark{text-align:right;padding-right:10px;border-left:0 solid}
+#BookmarkForm div.ColorTable input.BookMarkText{width:500px}
+#BookmarkForm div.ColorTable textarea.BookMarkTextArea{height:50px;width:500px !important}
+
+#BookmarkForm table.ColorTable td.buttons{border-right:0 solid}
+#BookmarkForm table.ColorTable td.ManageBookmark{text-align:right;padding-right:10px;border-left:0 solid}
+#BookmarkForm table.ColorTable input.BookMarkText{width:500px}
+#BookmarkForm table.ColorTable textarea.BookMarkTextArea{height:50px;width:500px !important}
+
+#BookmarkForm table.ColorTableDR td.buttons{border-right:0 solid}
+#BookmarkForm table.ColorTableDR td.ManageBookmark{text-align:right;padding-right:10px;border-left:0 solid}
+#BookmarkForm table.ColorTableDR input.BookMarkText{width:500px}
+#BookmarkForm table.ColorTableDR textarea.BookMarkTextArea{height:50px;width:500px !important;font:bold 1.1em verdana !important;}
+
+#BookmarkForm div.ColorTableDR td.buttons{border-right:0 solid}
+#BookmarkForm div.ColorTableDR td.ManageBookmark{text-align:right;padding-right:10px;border-left:0 solid}
+#BookmarkForm div.ColorTableDR input.BookMarkText{width:500px}
+#BookmarkForm div.ColorTableDR textarea.BookMarkTextArea{height:50px;width:500px !important;font:bold 1.1em verdana !important;}
+
+select.BookMarkSelect {
+width:342px;
+font:normal 1.1em verdana;
+}
+
+table.Bookmarks{
+	
+	margin:0px;
+	padding:0px;
+	font-size:1.1em;
+}
+table.BookmarksDR{
+	
+	margin:0px;
+	padding:0px;
+	font-size:1.1em;
+}
+table.BookmarksDR th
+{
+background:url(../../images/layout/bg_blue_table_header.gif) repeat-x center #929292;
+	/*border-top:1px solid #FFF;*/
+	border-left:1px solid #A1A1A1;
+	border-right:1px solid #A1A1A1;
+	padding:4px 6px 4px 6px	;
+	color:#FFF;
+}
+table.Bookmarks th{
+	background:url(../../images/layout/bg_blue_table_header.gif) repeat-x center #929292;
+	border-left:1px solid #A1A1A1;
+	border-right:1px solid #A1A1A1;
+	color:#FFF;
+	/*border-top:1px solid #FFF;*/
+	padding:4px 6px 4px 6px
+}
+table.BookmarksDR td
+{
+	background:url(../../images/layout/bg_blue_table.gif) repeat-x bottom #FFF;
+	border-top:1px solid #EBEAEA;
+	border-right:1px solid #EBEAEA;
+	border-bottom:1px solid #EBEAEA;
+	border-left:1px solid #EBEAEA;
+	padding:4px 6px 4px 6px;
+	vertical-align: top;
+	color:#C0C0C0;
+}
+table.Bookmarks td {
+	background:url(../../images/layout/bg_blue_table.gif) repeat-x bottom #FFF;
+	border-top:1px solid #EBEAEA;
+	border-right:1px solid #EBEAEA;
+	border-bottom:1px solid #EBEAEA;
+	border-left:1px solid #EBEAEA;
+	padding:4px 6px 4px 6px;
+	vertical-align: top;
+}
+
+table.Bookmarks
+{
+	margin:0px;
+	padding:0px !important;
+	border:0 solid;
+}
+
+table.BookmarksDR
+{
+	margin:0px;
+	padding:0px !important;
+	border:0 solid;
+}
+
+table.Bookmarks td.FirstCol{font-weight:bold;width:150px}
+table.BookmarksDR td.FirstCol{font-weight:bold;width:150px}
+
+table.Bookmarks td a{
+	font-weight:bold;
+}
+table.BookmarksDR td a{
+	font-weight:bold;
+}
+table.Bookmarks td a.NonBold{
+	font-weight:normal;
+}
+table.Bookmarks .Small td {
+	font-size:0.9em;
+	text-align:right;
+}
+table.Bookmarks .Small td.SmallLeft, table.ColorTable .SmallEmph td.SmallLeft {
+	text-align:left;
+}
+table.ColorTable .Emph td, table.ColorTable td.Emph, table.Status td a{
+	font-weight:bold;
+}
+table.ColorTable .SmallEmph td {
+	font-size:0.9em;
+	font-weight:bold;
+	text-align:right;
+}
+
+#NewFolder label{font-weight:bold}
+#NewFolder *{vertical-align:middle}
+
+.ActionColumn{width:140px;text-align:center}
+.ItemCount{text-align:center;width:100px}
+.EditRow .FoldersColumn input{width:90%}
+.CheckColumn{text-align:center;width:75px;padding:0;vertical-align:middle}
+.CheckColumn *{margin:0;padding:0}
+
+.PagerTable{width:100%;}
+.PagerTable .Pager{text-align:right}
+.PagerTable .Pager a, .PagerTable .PageItemCount{font-weight:bold}
+.EditColumn{width:70px;text-align:center}
+
+.FooterRow th, .HeaderRow th .FunctionColumn{vertical-align:text-middle;}
+.FooterRow select, .HeaderRow select{font-size:1em;padding:0;margin:0;}
+.FooterRow input, .HeaderRow input{margin:0;}
+
+table.Bookmarks td{font-weight:normal}
+table.BookmarksDR td{font-weight:normal}
+
+
+
+table.SelectFolder{margin-top:20px}
+table.BookmarksDR .NoBackground td, table.Bookmarks .NoBackground td, #BookmarkForm div.ColorTable .NoBackground td{background:transparent;border:0 solid;padding:3px 0}
+#BookmarkForm div.ColorTable .NoBackground td{padding-top:3px}
+#BookmarkForm div.ColorTableDR table .NoBackground td{background:transparent;border:0 solid;padding:3px 0}
+#BookmarkForm div.ColorTable table{border-left:0px solid;}
+#BookmarkForm div.ColorTableDR table{border-left:0px solid;}
+#BookmarkForm div.ColorTableDR td.FirstCol{border-left:1px solid #C0C0C0;}
+#BookmarkForm div.ColorTable{background:transparent;border:0 solid;padding:3px 0}
+
+#BookmarkForm div.ColorTable a.Bookmark{font-weight:bold}
+#BookmarkForm div.ColorTableDR a.Bookmark{font-size:1.1em; font-weight:bold}
+#BookmarkForm h3{
+	background:url(../../images/layout/bg_h1.gif) bottom left no-repeat;
+}
+
+table.FATCA{
+	margin:0px;
+	padding:0px;
+	font-size:1.1em;
+}
+table.FATCA td
+{
+    padding-top:5px;
+	vertical-align:top;
+}
+table.FATCA td.FirstCol{
+	font-weight:bold;
+	margin:0px;
+	vertical-align:top;
+	white-space:nowrap;
+	padding-right:10px;
+}
